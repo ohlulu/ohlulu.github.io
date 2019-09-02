@@ -153,9 +153,11 @@ guard let {變數名稱} = {變數名稱} else {
 let number: Int? = nil
 guard let number = number else {
     print("number == nil")
+    return
 }
 print("number != nil")
 ```
+ps: 上面這段 code 無法在 playground 執行。
 
 這種用法通常在當出現非預期的結果時，我們需要提示使用者：可能出現問題了。
 

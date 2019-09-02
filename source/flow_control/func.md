@@ -20,7 +20,7 @@ func `函數名稱`() {
 
 }
 
-// 2. 有參數，也無回傳
+// 2. 有參數，無回傳
 // 內外部共用一個參數名稱，可以只寫一個參數名稱。
 func `函數名稱`(`參數名稱1`: `參數型別1`, `參數名稱2`: `參數型別2`) {
     
@@ -42,7 +42,7 @@ func doSomething() {
     print("doSomething")
 }
 
-// 有參數，也無回傳
+// 有參數，無回傳
 func printSum(by x: Int, and y: Int) {
     print(x + y)
 }
@@ -72,14 +72,14 @@ func doSomething() {
 doSomething()
 
 
-// 呼叫 `有參數，也無回傳` 的 func
+// 呼叫 `有參數，無回傳` 的 func
 // 內外部參數共用名稱
 func printSum(x: Int, y: Int) {
     print(x + y)
 }
 printSum(x: 10, y: 5)
 
-// 呼叫 `有參數，也無回傳` 的 func
+// 呼叫 `有參數，無回傳` 的 func
 // 內外部 `不` 共用名稱
 func printSum(by x: Int, and y: Int) {
     print(x + y)
