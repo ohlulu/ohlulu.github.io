@@ -13,7 +13,7 @@
 Optional 完整的宣告是長這樣
 
 ```swift
-let maybeNil: Optional<Type>
+let maybeNil: Optional<`Type`>
 ```
 
 > Optional 也是一種型別，型別本身包含兩個值，一個值是 none 表示 nil， 一個值是 some 表示解開之後的值。
