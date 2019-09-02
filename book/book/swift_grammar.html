@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Swift 轉職教戰手冊 · GitBook</title>
+        <title>Swift 語法介紹 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="print_introduction.html" />
     
+    <link rel="prev" href="print_introduction.html" />
     
 
     </head>
@@ -87,7 +87,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -120,7 +120,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="swift_grammar.html">
+        <li class="chapter active" data-level="2.2" data-path="swift_grammar.html">
             
                 <a href="swift_grammar.html">
             
@@ -279,7 +279,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Swift 轉職教戰手冊</a>
+        <a href="." >Swift 語法介紹</a>
     </h1>
 </div>
 
@@ -294,7 +294,61 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="swift-&#x8F49;&#x8077;&#x6559;&#x6230;&#x624B;&#x518A;">Swift &#x8F49;&#x8077;&#x6559;&#x6230;&#x624B;&#x518A;</h1>
+                                <h1 id="swift-&#x8A9E;&#x6CD5;&#x4ECB;&#x7D39;">Swift &#x8A9E;&#x6CD5;&#x4ECB;&#x7D39;</h1>
+<ol>
+<li><p>&#x5E38;&#x6578;&#x3001;&#x8B8A;&#x6578;&#x5BA3;&#x544A;&#xFF08;&#x547D;&#x540D;&#x898F;&#x5247;&#x3001;&#x4FDD;&#x7559;&#x5B57;&#xFF09;</p>
+<ul>
+<li>&#x5C0F;&#x5BEB;&#x958B;&#x982D;</li>
+<li>&#x99DD;&#x5CF0;&#x5F0F;</li>
+</ul>
+</li>
+<li><p>&#x8A3B;&#x89E3;&#xFF08;&#x55AE;&#x884C;&#x3001;&#x591A;&#x884C;&#x3001;&#x5DE2;&#x72C0;&#xFF09;</p>
+<pre><code class="lang-swift"><span class="hljs-comment">// &lt;- &#x55AE;&#x884C;&#x8A3B;&#x89E3;</span>
+</code></pre>
+<pre><code class="lang-swift"><span class="hljs-comment">/*
+ &#x591A;&#x884C;&#x8A3B;&#x89E3;
+ */</span>
+</code></pre>
+<pre><code class="lang-swift"><span class="hljs-comment">/*
+ <span class="hljs-comment">/*
+ &#x5DE2;&#x72C0;&#x8A3B;&#x89E3; (&#x4E0D;&#x91CD;&#x8981;)
+ */</span>
+*/</span>
+</code></pre>
+</li>
+<li><p>&#x578B;&#x5225;&#x5BA3;&#x544A;&#x3001;&#x578B;&#x5225;&#x6A19;&#x6CE8;</p>
+<pre><code class="lang-swift"> <span class="hljs-comment">// &#x5BA3;&#x544A;&#x4E00;&#x500B;&#x6574;&#x6578;&#x8B8A;&#x6578;</span>
+ <span class="hljs-keyword">var</span> number: <span class="hljs-type">Int</span>
+
+ <span class="hljs-comment">// &#x5BA3;&#x544A;&#x4E00;&#x500B;&#x5B57;&#x4E32;&#x5E38;&#x6578;</span>
+ <span class="hljs-keyword">let</span> str: <span class="hljs-type">String</span> = <span class="hljs-string">&quot;It is a string .&quot;</span>
+</code></pre>
+</li>
+<li><p>&#x578B;&#x5225;&#x5B89;&#x5168;&#x3001;&#x578B;&#x5225;&#x63A8;&#x65B7;</p>
+<pre><code class="lang-swift"> <span class="hljs-comment">// swift &#x6703;&#x63A8;&#x65B7;&#x51FA; number &#x8B8A;&#x6578;&#x662F;&#x6574;&#x6578;</span>
+ <span class="hljs-keyword">var</span> number = <span class="hljs-number">1</span> 
+ <span class="hljs-built_in">print</span>(type(of: number))
+</code></pre>
+</li>
+</ol>
+<ol>
+<li><p>&#x904B;&#x7B97;&#x5B50;</p>
+<ol>
+<li>&#x904B;&#x7B97;&#x5B50;&#xFF08; + - * / %&#xFF09;&#xFF08;&#x8907;&#x5408;&#x904B;&#x7B97;&#xFF09;</li>
+<li>&#x6BD4;&#x8F03;&#x904B;&#x7B97;&#x5B50; <ul>
+<li>&#x7B49;&#x65BC;&#xFF08;<code>a == b</code>&#xFF09;</li>
+<li>&#x4E0D;&#x7B49;&#x65BC;&#xFF08;<code>a != b</code>&#xFF09;</li>
+<li>&#x5927;&#x65BC;&#xFF08;<code>a &gt; b</code>&#xFF09;</li>
+<li>&#x5C0F;&#x65BC;&#xFF08;<code>a &lt; b</code>&#xFF09;</li>
+<li>&#x5927;&#x65BC;&#x7B49;&#x65BC;&#xFF08;<code>a &gt;= b</code>&#xFF09;&#xFF08;&#x1F6AB; =&lt;&#xFF09;</li>
+<li>&#x5C0F;&#x65BC;&#x7B49;&#x65BC;&#xFF08;<code>a &lt;= b</code>&#xFF09;&#xFF08;&#x1F6AB; =&gt;&#xFF09;</li>
+</ul>
+</li>
+<li>&#x908F;&#x8F2F;&#x904B;&#x7B97;&#x5B50; &#xFF08;not&#x3001;and&#x3001;or&#xFF09;</li>
+<li>&#x512A;&#x5148;&#x9806;&#x5E8F;&#xFF08;&#xFF09;</li>
+</ol>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -322,10 +376,10 @@
 
             
                 
-                
-                <a href="print_introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page: print() 函數說明">
-                    <i class="fa fa-angle-right"></i>
+                <a href="print_introduction.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: print() 函數說明">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -334,7 +388,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Swift 轉職教戰手冊","level":"1.1","depth":1,"next":{"title":"print() 函數說明","level":"2.1","depth":1,"path":"print_introduction.md","ref":"print_introduction.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"transfer to swift developer book!"},"file":{"path":"README.md","mtime":"2019-08-31T14:53:35.621Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-02T15:19:23.907Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Swift 語法介紹","level":"2.2","depth":1,"next":{"title":"型別介紹","level":"2.3","depth":1,"ref":"","articles":[{"title":"基礎型別","level":"2.3.1","depth":2,"path":"type_introduction/base_type.md","ref":"type_introduction/base_type.md","articles":[]},{"title":"集合型別","level":"2.3.2","depth":2,"path":"type_introduction/collection_type.md","ref":"type_introduction/collection_type.md","articles":[]},{"title":"Optional - 可選型別","level":"2.3.3","depth":2,"path":"type_introduction/optional.md","ref":"type_introduction/optional.md","articles":[]}]},"previous":{"title":"print() 函數說明","level":"2.1","depth":1,"path":"print_introduction.md","ref":"print_introduction.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"transfer to swift developer book!"},"file":{"path":"swift_grammar.md","mtime":"2019-09-01T13:47:45.368Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-02T15:04:05.584Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
