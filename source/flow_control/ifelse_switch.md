@@ -89,7 +89,7 @@ case 後面可以擺放：單一情況，也可以放區間，也可以用逗號
 1. `let number = 0`
 
     用 if else 判斷是否為偶數
-    > ps: 改變 nummber 的值，驗證看看你的 if else 判斷式，是否正確
+    > ps: 改變 number 的值，驗證看看你的 if else 判斷式，是否正確
 
 2. `let year = 2019`
 
