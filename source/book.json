@@ -1,3 +1,4 @@
 {
-	"description": "初學者白皮書!"
+	"description": "初學者白皮書!",
+	"plugins": ["collapsible-menu"]
 }
