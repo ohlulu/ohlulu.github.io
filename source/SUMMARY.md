@@ -2,7 +2,7 @@
 
 * [Swift 初學者白皮書](README.md)
 
-## 基礎學習
+#### 基礎學習
 * [print() 函數說明](print_introduction.md)
 * [Swift 語法介紹](swift_grammar.md)
 * 型別介紹
