@@ -107,7 +107,6 @@ let resule = getSum(x: 10, y: 5)
 func noParameterName(_ x: Int) {
     print(x)
 }
-
 ```
 
 > Coding style 建議：盡量使用動詞，作為 func name 的開頭
