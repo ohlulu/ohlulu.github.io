@@ -1,6 +1,6 @@
 # Summary
 
-* [Swift 轉職教戰手冊](README.md)
+* [Swift 初學者手冊](README.md)
 
 ## 基礎學習
 * [print() 函數說明](print_introduction.md)
