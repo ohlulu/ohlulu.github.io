@@ -375,31 +375,136 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x96C6;&#x5408;&#x578B;&#x5225;">&#x96C6;&#x5408;&#x578B;&#x5225;</h1>
-<p>&#x6709;&#x6A5F;&#x6703;&#x518D;&#x88DC;...</p>
-<ol>
-<li>Array</li>
-</ol>
-<pre><code>* Array &#x9663;&#x5217;
-* &#x4E00;&#x500B;`&#x6709;&#x5E8F;`&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x5229;&#x7528; Index &#x4F86;&#x53D6;&#x51FA;&#x9663;&#x5217;&#x4E2D;&#x7684;&#x503C;
-* &#x5229;&#x7528; , &#x4F86;&#x5340;&#x5206;&#x6BCF;&#x4E00;&#x7D44;&#x6578;&#x503C;
-* ex: let arr = [0, 1, 2]
-* arr[0]
-* arr[1]
-* note: &#x5B58;&#x653E;&#x7684;&#x5167;&#x5BB9;&#xFF0C;&#x5FC5;&#x9808;&#x660E;&#x78BA;&#x7684;&#x8B93; swift &#x77E5;&#x9053;&#xFF1A;&#x9663;&#x5217;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x578B;&#x5225;&#x662F;&#x4EC0;&#x9EBC;
-</code></pre><ol>
-<li>Dictionary</li>
-</ol>
-<pre><code>* Dictionary &#x5B57;&#x5178;
-* &#x4E00;&#x7A2E;`&#x7121;&#x5E8F;`&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x662F;&#x4E00;&#x7D44; key value
-* &#x7528; : &#x5340;&#x5206; key value&#x311D;&#xFF0C;&#x5DE6;&#x908A;&#x662F; key&#xFF0C;&#x53F3;&#x908A;&#x662F; value
-* &#x4E00;&#x6A23;&#x7528; , &#x4F86;&#x5340;&#x5206;&#x6BCF;&#x4E00;&#x7D44;&#x6578;&#x503C;
-* key &#x5FC5;&#x9808;&#x662F;&#x552F;&#x4E00;
-* &#x7528; key &#x4F86;&#x53D6;&#x503C;
-</code></pre><ol>
-<li>Set</li>
-</ol>
-<pre><code>* &#x4E00;&#x7A2E;`&#x7121;&#x5E8F;`&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x8DDF; Array &#x5F88;&#x50CF;&#xFF0C;&#x4F46;&#x5B58;&#x653E;&#x7684;&#x503C;&#x5FC5;&#x9808;&#x662F;&#x552F;&#x4E00;
+<p>Array, Dictionary, Set</p>
+<h2 id="array-&#x9663;&#x5217;">Array &#x9663;&#x5217;</h2>
+<ul>
+<li>Array &#x9663;&#x5217;</li>
+<li>&#x4E00;&#x500B;<code>&#x6709;&#x5E8F;</code>&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x5229;&#x7528; Index &#x4F86;&#x53D6;&#x51FA;&#x9663;&#x5217;&#x4E2D;&#x7684;&#x503C;</li>
+<li>&#x5229;&#x7528; , &#x4F86;&#x5340;&#x5206;&#x6BCF;&#x4E00;&#x7D44;&#x6578;&#x503C;</li>
+<li>&#x4F7F;&#x7528; index &#x4F86;&#x53D6;&#x503C;&#xFF0C;&#x6CE8;&#x610F;&#x662F;&#x5F9E;0&#x958B;&#x59CB;&#x8A08;&#x7B97;&#xFF0C;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;<blockquote>
+<p>note: &#x5B58;&#x653E;&#x7684;&#x5167;&#x5BB9;&#xFF0C;&#x5FC5;&#x9808;&#x660E;&#x78BA;&#x7684;&#x8B93; swift &#x77E5;&#x9053;&#xFF1A;&#x9663;&#x5217;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x578B;&#x5225;&#x662F;&#x4EC0;&#x9EBC;</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="&#x5BA3;&#x544A;&#x65B9;&#x5F0F;">&#x5BA3;&#x544A;&#x65B9;&#x5F0F;</h3>
+<p>&#x5BA3;&#x544A;&#x7684;&#x6642;&#x5019;&#xFF0C;&#x5C31;&#x7D66;&#x503C;&#xFF1B;&#x5229;&#x7528;&#x578B;&#x5225;&#x63A8;&#x65B7;&#xFF0C;&#x8B93; swift &#x77E5;&#x9053; Array &#x4E2D;&#x5B58;&#x653E;&#x7684;&#x662F; Int</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> arr0 = [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">8</span>] <span class="hljs-comment">// &#x2705;</span>
 </code></pre>
+<p>&#x5BA3;&#x544A;&#x7684;&#x6642;&#x5019;&#xFF0C;&#x53EA;&#x8AAA;&#x660E;&#x5B58;&#x653E;&#x7684;&#x578B;&#x5225;&#xFF0C;&#x4E0D;&#x7D66;&#x503C;&#xFF0C;&#x8868;&#x793A;&#x7A7A;&#x9663;&#x5217;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> arr1 = [<span class="hljs-type">Int</span>]() <span class="hljs-comment">// [&#x5143;&#x7D20;&#x7684;&#x578B;&#x5225;]()</span>
+<span class="hljs-type">Array</span>&lt;<span class="hljs-type">Int</span>&gt;() <span class="hljs-comment">// Array&lt;&#x5143;&#x7D20;&#x7684;&#x578B;&#x5225;&gt;()</span>
+
+<span class="hljs-comment">// &#x4E0A;&#x9762;&#x5169;&#x500B;&#x662F;&#x7B49;&#x50F9;&#x7684;</span>
+</code></pre>
+<p>&#x5BA3;&#x544A; Array &#x7684;&#x578B;&#x5225;&#xFF0C;&#x4E26;&#x6307;&#x660E;&#x5B58;&#x653E; Int&#xFF0C;&#x6240;&#x4EE5;&#x5C31;&#x7B97;&#x7D66;&#x7A7A;&#x7684;&#x9663;&#x5217;&#xFF0C;swift &#x4F9D;&#x7136;&#x7406;&#x89E3;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> arr3: <span class="hljs-type">Array</span>&lt;<span class="hljs-type">Int</span>&gt; = []
+</code></pre>
+<p>&#x5BA3;&#x544A;&#x578B;&#x5225;&#x662F; Array &#xFF0C;&#x4F46;&#x6C92;&#x6709;&#x8AAA;&#x660E; Array &#x4E2D;&#x7684;&#x578B;&#x5225;&#xFF0C;&#x7136;&#x5F8C;&#x5229;&#x7528;&#x578B;&#x5225;&#x63A8;&#x65B7;&#xFF0C;&#x4F86;&#x8B93; swift &#x77E5;&#x9053; Array &#x4E2D;&#x5B58;&#x653E;&#x7684;&#x662F;&#x4EC0;&#x9EBC;&#x578B;&#x5225;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> arr2: <span class="hljs-type">Array</span> = [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">8</span>]
+<span class="hljs-comment">// &#x534A;&#x6B98;&#x7684;&#x5BA3;&#x544A;&#xFF0C;&#x4E0D;&#x5EFA;&#x8B70;&#x9019;&#x9EBC;&#x4F7F;&#x7528;</span>
+</code></pre>
+<h3 id="&#x53D6;&#x503C;&#x7684;&#x65B9;&#x5F0F;">&#x53D6;&#x503C;&#x7684;&#x65B9;&#x5F0F;</h3>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> arr0 = [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>]
+<span class="hljs-built_in">print</span>(arr[<span class="hljs-number">0</span>], arr[<span class="hljs-number">1</span>])
+<span class="hljs-comment">// 0 1</span>
+
+<span class="hljs-keyword">let</span> a = <span class="hljs-number">2</span>
+<span class="hljs-keyword">let</span> arr1: <span class="hljs-type">Array</span>&lt;<span class="hljs-type">Int</span>&gt; = [<span class="hljs-string">&quot;&#x6211;&quot;</span>, <span class="hljs-string">&quot;&#x662F;&quot;</span>, <span class="hljs-string">&quot;&#x8AB0;&quot;</span>]
+<span class="hljs-built_in">print</span>(arr[a])
+<span class="hljs-comment">// &#x8AB0;</span>
+
+<span class="hljs-keyword">let</span> b = <span class="hljs-number">0</span>
+<span class="hljs-keyword">let</span> arr2 = [<span class="hljs-type">Int</span>]()
+<span class="hljs-built_in">print</span>(arr[b])
+<span class="hljs-comment">// &#x1F6AB; out of index</span>
+</code></pre>
+<h3 id="&#x65B0;&#x589E;&#x3001;&#x4FEE;&#x6539;&#x3001;&#x522A;&#x9664;-&#x9663;&#x5217;&#x4E2D;&#x7684;&#x503C;">&#x65B0;&#x589E;&#x3001;&#x4FEE;&#x6539;&#x3001;&#x522A;&#x9664; &#x9663;&#x5217;&#x4E2D;&#x7684;&#x503C;</h3>
+<p>&#x65B0;&#x589E;&#x7684;&#x65B9;&#x5F0F;&#x6709;&#x5F88;&#x591A;&#x7A2E;&#xFF0C;&#x9019;&#x908A;&#x4ECB;&#x7D39;&#x5E7E;&#x500B;&#x5E38;&#x7528;&#x7684;</p>
+<ol>
+<li><p>append&#xFF1A;&#x5728;&#x9663;&#x5217;&#x7684;&#x5C3E;&#x7AEF;&#x52A0;&#x4E0A;&#x65B0;&#x7684;&#x5143;&#x7D20;</p>
+<pre><code class="lang-swift"> <span class="hljs-keyword">var</span> arr0 = [<span class="hljs-number">0</span>]
+ <span class="hljs-built_in">print</span>(arr0)
+
+ arr0.append(-<span class="hljs-number">1</span>)
+ <span class="hljs-built_in">print</span>(arr0)
+</code></pre>
+</li>
+<li><code>+</code> &#x7528;&#x52A0;&#x865F;&#xFF0C;&#x5C07;&#x5169;&#x500B;&#x9663;&#x5217;&#x76F8;&#x52A0;<pre><code class="lang-swift"> <span class="hljs-keyword">let</span> arr1 = [<span class="hljs-string">&quot;hello&quot;</span>, <span class="hljs-string">&quot;word&quot;</span>]
+ <span class="hljs-keyword">let</span> arr2 = [<span class="hljs-string">&quot;!&quot;</span>]
+ <span class="hljs-keyword">let</span> arr3 = arr1 + arr2
+ <span class="hljs-built_in">print</span>(arr3)
+</code></pre>
+</li>
+<li><p>insert(_ newElement: \<element\>, at index: Int)&#xFF0C;&#x4F7F;&#x7528; Array &#x63D0;&#x4F9B;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#xFF0C;&#x52A0;&#x4E0A;&#x5143;&#x7D20;&#x3002;</element\></p>
+<pre><code class="lang-swift"> <span class="hljs-keyword">var</span> arr4 = [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>]
+ arr4.insert(<span class="hljs-number">3</span>, at: <span class="hljs-number">3</span>)
+ <span class="hljs-built_in">print</span>(arr4)
+
+ arr4.insert(<span class="hljs-number">0</span>, at: <span class="hljs-number">0</span>)
+ <span class="hljs-built_in">print</span>(arr4)
+</code></pre>
+</li>
+<li><p>&#x4FEE;&#x6539;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x4E2D;&#x7684;&#x503C;&#xFF1A;</p>
+<pre><code class="lang-swift"> <span class="hljs-keyword">var</span> arr5 = [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>]
+ arr5[<span class="hljs-number">0</span>] = <span class="hljs-number">8</span>
+ <span class="hljs-built_in">print</span>(arr5)
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2 id="dictionary">Dictionary</h2>
+<ul>
+<li>Dictionary &#x5B57;&#x5178;</li>
+<li>&#x4E00;&#x7A2E;<code>&#x7121;&#x5E8F;</code>&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x662F;&#x4E00;&#x7D44; key + value</li>
+<li>&#x7528; : &#x5340;&#x5206; key &amp; value&#xFF0C;&#x5DE6;&#x908A;&#x662F; key&#xFF0C;&#x53F3;&#x908A;&#x662F; value</li>
+<li>&#x4E00;&#x6A23;&#x7528; , &#x4F86;&#x5340;&#x5206;&#x6BCF;&#x4E00;&#x7D44;&#x6578;&#x503C;</li>
+<li>key &#x5FC5;&#x9808;&#x662F;&#x552F;&#x4E00;</li>
+<li>&#x7528; key &#x4F86;&#x53D6;&#x503C;</li>
+</ul>
+<h3 id="&#x5BA3;&#x544A;&#x65B9;&#x5F0F;">&#x5BA3;&#x544A;&#x65B9;&#x5F0F;</h3>
+<p>&#x5BA3;&#x544A;&#x7684;&#x6642;&#x5019;&#xFF0C;&#x5C31;&#x7D66;&#x503C;</p>
+<p>&#x2705; &#x5229;&#x7528;&#x578B;&#x5225;&#x63A8;&#x65B7;&#xFF0C;&#x8B93; swift &#x77E5;&#x9053; Dictionary &#x4E2D;&#x5B58;&#x653E;&#x7684; key &#x662F; Int&#xFF1B;value &#x662F; String</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic1 = [<span class="hljs-number">1</span>: <span class="hljs-string">&quot;&#x5C0F;&#x660E;&quot;</span>, <span class="hljs-number">2</span>: <span class="hljs-string">&quot;&#x5C0F;&#x738B;&quot;</span>, <span class="hljs-number">3</span>: <span class="hljs-string">&quot;&#x5C0F;&#x82B1;&quot;</span>]
+</code></pre>
+<p>&#x2705; &#x5BA3;&#x544A;&#x5B8C;&#x6574;&#x7684;&#x578B;&#x5225;&#xFF0C;&#x6240;&#x4EE5;&#x7D66;&#x4E88;&#x7A7A;&#x5B57;&#x5178;&#x6642;&#xFF0C;swift &#x6703;&#x77E5;&#x9053; key value &#x5206;&#x5225;&#x662F;&#x4EC0;&#x9EBC;&#x578B;&#x5225;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic3: <span class="hljs-type">Dictionary</span>&lt;<span class="hljs-type">Int</span>, <span class="hljs-type">String</span>&gt; = [:]
+</code></pre>
+<p>&#x5B8C;&#x6574;&#x7684;&#x5BA3;&#x544A;&#xFF0C;&#x4F46;&#x4E0D;&#x5FC5;&#x8981;&#xFF0C;&#x56E0;&#x70BA;&#x986F;&#x5F97;&#x591A;&#x9918;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic2: <span class="hljs-type">Dictionary</span>&lt;<span class="hljs-type">Int</span>, <span class="hljs-type">String</span>&gt; = [<span class="hljs-number">1</span>: <span class="hljs-string">&quot;&#x5C0F;&#x660E;&quot;</span>, <span class="hljs-number">2</span>: <span class="hljs-string">&quot;&#x5C0F;&#x738B;&quot;</span>, <span class="hljs-number">3</span>: <span class="hljs-string">&quot;&#x5C0F;&#x82B1;&quot;</span>]
+</code></pre>
+<p>&#x534A;&#x6B98;&#x7684;&#x5BA3;&#x544A;&#xFF0C;&#x4E00;&#x6A23;&#x6C92;&#x5FC5;&#x8981;&#xFF0C;&#x4F46;&#x5141;&#x8A31;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic4: <span class="hljs-type">Dictionary</span> = [<span class="hljs-string">&quot;&#x5C0F;&#x660E;&quot;</span>: <span class="hljs-number">1</span>, <span class="hljs-string">&quot;&#x5C0F;&#x738B;&quot;</span>: <span class="hljs-number">2</span>, <span class="hljs-string">&quot;&#x5C0F;&#x82B1;&quot;</span>: <span class="hljs-number">3</span>]
+</code></pre>
+<h3 id="&#x53D6;&#x503C;&#x65B9;&#x5F0F;">&#x53D6;&#x503C;&#x65B9;&#x5F0F;</h3>
+<p>&#x4F7F;&#x7528; key &#x4F86;&#x53D6;&#x503C;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic1 = [<span class="hljs-number">1</span>: <span class="hljs-string">&quot;&#x5C0F;&#x660E;&quot;</span>, <span class="hljs-number">2</span>: <span class="hljs-string">&quot;&#x5C0F;&#x738B;&quot;</span>, <span class="hljs-number">3</span>: <span class="hljs-string">&quot;&#x5C0F;&#x82B1;&quot;</span>]
+<span class="hljs-built_in">print</span>(dic1[<span class="hljs-number">2</span>])
+</code></pre>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dic5 = [<span class="hljs-string">&quot;small&quot;</span>: <span class="hljs-number">1</span>, <span class="hljs-string">&quot;mid&quot;</span>: <span class="hljs-number">2</span>, <span class="hljs-string">&quot;height&quot;</span>: <span class="hljs-number">3</span>]
+<span class="hljs-keyword">let</span> key = <span class="hljs-string">&quot;small&quot;</span>
+<span class="hljs-built_in">print</span>(dic5[key])
+</code></pre>
+<h3 id="&#x65B0;&#x589E;&#x3001;&#x4FEE;&#x6539;&#x3001;&#x522A;&#x9664;-&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x503C;">&#x65B0;&#x589E;&#x3001;&#x4FEE;&#x6539;&#x3001;&#x522A;&#x9664; &#x5B57;&#x5178;&#x4E2D;&#x7684;&#x503C;</h3>
+<p>&#x65B0;&#x589E;&#x8DDF;&#x4FEE;&#x6539;&#x5F88;&#x50CF;&#xFF0C;&#x5B57;&#x5178;&#x4E2D;&#x9810;&#x8A2D;&#xFF1B;&#x6709;&#x503C;&#x5C31;&#x4FEE;&#x6539;&#xFF0C;&#x7121;&#x8077;&#x5C31;&#x65B0;&#x589E;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">var</span> dic6 = [<span class="hljs-string">&quot;small&quot;</span>: <span class="hljs-number">1</span>, <span class="hljs-string">&quot;mid&quot;</span>: <span class="hljs-number">0</span>]
+
+dic6[<span class="hljs-string">&quot;height&quot;</span>] = <span class="hljs-number">3</span> <span class="hljs-comment">// &#x65B0;&#x589E;</span>
+<span class="hljs-built_in">print</span>(dic6)
+
+dic6[<span class="hljs-string">&quot;mid&quot;</span>] = <span class="hljs-number">2</span> <span class="hljs-comment">// &#x4FEE;&#x6539;</span>
+<span class="hljs-built_in">print</span>(dic6)
+
+dic6[<span class="hljs-string">&quot;height&quot;</span>] = <span class="hljs-literal">nil</span> <span class="hljs-comment">// &#x522A;&#x9664;</span>
+<span class="hljs-built_in">print</span>(dic6)
+</code></pre>
+<ol>
+<li><p>Set</p>
+</li>
+<li><p>&#x4E00;&#x7A2E;<code>&#x7121;&#x5E8F;</code>&#x7684;&#x8CC7;&#x6599;&#x96C6;&#x5408;&#xFF0C;&#x8DDF; Array &#x5F88;&#x50CF;&#xFF0C;&#x4F46;&#x5B58;&#x653E;&#x7684;&#x503C;&#x5FC5;&#x9808;&#x662F;&#x552F;&#x4E00;</p>
+</li>
+</ol>
+<p>&#x56E0;&#x4F7F;&#x7528;&#x8F03;&#x5C11;&#xFF0C;&#x4E4B;&#x5F8C;&#x6709;&#x6A5F;&#x6703;&#x518D;&#x8B1B; &#x1F602;</p>
+
                                 
                                 </section>
                             
@@ -442,7 +547,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3.2 集合型別","level":"2.3.2","depth":2,"next":{"title":"3.3 Optional - 可選型別","level":"2.3.3","depth":2,"path":"base/type_introduction/optional.md","ref":"base/type_introduction/optional.md","articles":[]},"previous":{"title":"3.1 基礎型別","level":"2.3.1","depth":2,"path":"base/type_introduction/base_type.md","ref":"base/type_introduction/base_type.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/type_introduction/collection_type.md","mtime":"2019-09-03T14:27:45.147Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-04T18:53:22.873Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3.2 集合型別","level":"2.3.2","depth":2,"next":{"title":"3.3 Optional - 可選型別","level":"2.3.3","depth":2,"path":"base/type_introduction/optional.md","ref":"base/type_introduction/optional.md","articles":[]},"previous":{"title":"3.1 基礎型別","level":"2.3.1","depth":2,"path":"base/type_introduction/base_type.md","ref":"base/type_introduction/base_type.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/type_introduction/collection_type.md","mtime":"2019-09-05T15:58:04.803Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-05T15:58:45.559Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
