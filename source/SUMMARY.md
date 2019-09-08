@@ -13,8 +13,8 @@
     * [4.1 函數 func](base/flow_control/func.md)
     * [4.2 閉包 closure](base/flow_control/closure.md)
 * [ 5. 流程控制](base/flow_control/flow_control_introduction.md)
-    * [5.1 條件式控制 if-else](base/flow_control/ifelse_switch.md)
-    * [5.2 循環式控制 for-in](base/flow_control/for_in.md)
+    * [5.1 條件式控制](base/flow_control/ifelse_switch.md)
+    * [5.2 循環式控制](base/flow_control/for_in.md)
 
 ## 程式設計方法（典範）
 * [6. 物件導向-OOP](program_paradigm/oop.md)
