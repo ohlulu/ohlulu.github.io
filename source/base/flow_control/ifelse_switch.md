@@ -1,6 +1,9 @@
 # 條件式 if-else / switch
 
-#### if else
+* [if-else](#if_else)
+* [switch](#switch)
+
+<h2 id="if_elsee">if else</h2>
 
 簡單來說就是判斷 是非。
 
@@ -67,7 +70,7 @@ if age >= 18 {
 
 ---
 
-#### Switch
+<h2 id="switch">Switch</h2>
 
 如果判斷的結果，數量較少的話，使用上的 if else 沒有任何問題，但是當判斷的數量一多，程式碼就會變得非常的雜亂。
 
