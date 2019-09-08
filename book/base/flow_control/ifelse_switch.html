@@ -435,17 +435,17 @@
 <pre><code class="lang-swift"><span class="hljs-comment">// 1.</span>
 <span class="hljs-keyword">let</span> score = <span class="hljs-number">87</span>
 <span class="hljs-keyword">switch</span> score {
-<span class="hljs-keyword">case</span> <span class="hljs-number">0</span>, <span class="hljs-number">1</span>...<span class="hljs-number">10</span>:
+<span class="hljs-keyword">case</span> <span class="hljs-number">0</span>, <span class="hljs-number">1</span>...<span class="hljs-number">10</span>: <span class="hljs-comment">// &#x7528;&#x9017;&#x9EDE;&#x5206;&#x9694;&#x5169;&#x500B;&#x689D;&#x4EF6;</span>
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x6253;&#x5C41;&#x80A1;&#xFF01;&quot;</span>)
-<span class="hljs-keyword">case</span> <span class="hljs-number">11</span>...<span class="hljs-number">60</span>: 
+<span class="hljs-keyword">case</span> <span class="hljs-number">11</span>...<span class="hljs-number">60</span>: <span class="hljs-comment">// &#x7528; ... &#x8868;&#x793A;&#x4E00;&#x500B;&#x5340;&#x9593;&#xFF08;&#x6578;&#x5B57;&#x9069;&#x7528;&#xFF09;</span>
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x4E0D;&#x53CA;&#x683C;&quot;</span>)
 <span class="hljs-keyword">case</span> <span class="hljs-number">61</span>...<span class="hljs-number">80</span>:
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x99AC;&#x99AC;&#x547C;&#x547C;&quot;</span>)
 <span class="hljs-keyword">case</span> <span class="hljs-number">81</span>...<span class="hljs-number">99</span>:
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x5A46;&#x8CBB;&#x7279;&quot;</span>)
-<span class="hljs-keyword">case</span> <span class="hljs-number">100</span>:
+<span class="hljs-keyword">case</span> <span class="hljs-number">100</span>: <span class="hljs-comment">// &#x4E5F;&#x53EF;&#x4EE5; case &#x55AE;&#x4E00;&#x6578;&#x503C;</span>
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#xFF25;&#x7D1A;&#x68D2;&quot;</span>)
-<span class="hljs-keyword">default</span>:
+<span class="hljs-keyword">default</span>: <span class="hljs-comment">// &#x7576;&#x6240;&#x6709; case &#x90FD;&#x6355;&#x6349;&#x4E0D;&#x5230;&#x7684;&#x6642;&#x5019;&#xFF0C;&#x6703;&#x9032;&#x5230; default</span>
     <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;&#x4F5C;&#x5F0A;&#xFF01;&quot;</span>)
 }
 </code></pre>
@@ -468,6 +468,16 @@
 <li><p><code>let constellation = &quot;&#x5C04;&#x624B;&#x5EA7;&quot;</code></p>
 <p> &#x7528; swift &#x5224;&#x65B7; 12 &#x661F;&#x5EA7;&#xFF0C;&#x4E26;&#x5370;&#x51FA;&#xFF0C;&quot;&#x6211;&#x662F; xx&#x5EA7;&quot; &#xFF0C;&#x4EE5;&#x984C;&#x76EE;&#x70BA;&#x4F8B;&#x5B50;&#xFF0C;&#x5C31;&#x6703;&#x5370;&#x51FA; &quot;&#x6211;&#x662F; &#x5C04;&#x624B;&#x5EA7;&quot;&#x3002;</p>
 <p> note&#xFF1A;&#x8003;&#x616E;&#x4E00;&#x4E0B;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x8F38;&#x5165; &quot;&#x592A;&#x967D;&#x5EA7;&quot; &#x5462;&#xFF1F;</p>
+</li>
+<li><p>(&#x9032;&#x968E;)</p>
+<p> &#x6709;&#x4E00;&#x500B;&#x5B78;&#x751F;&#x7684;&#x5206;&#x6578; <code>let score = (x)</code> (x &#x81EA;&#x884C;&#x586B;&#x5165;)&#xFF0C;&#x4F7F;&#x7528; switch-case &#x5C0D;&#x5B78;&#x751F;&#x7684;&#x6210;&#x7E3E;&#x9032;&#x884C;&#x8A55;&#x7B49;&#xFF0C;&#x898F;&#x5247;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code> 100 -&gt; A+
+ 90~99 -&gt; A
+ 80~89 -&gt; B
+ 70~79 -&gt; C
+ 60~69 -&gt; D
+ 0~59 -&gt; E
+</code></pre><p> &#x689D;&#x4EF6;&#x9650;&#x5236;&#xFF1A;&#x4E0D;&#x4F7F;&#x7528; range &#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; case &#x4E0D;&#x80FD;&#x4F7F;&#x7528; 0...59&#xFF0C;&#x9019;&#x6A23;&#x7684;&#x8868;&#x793A;&#x65B9;&#x5F0F;&#x3002;</p>
 </li>
 </ol>
 
@@ -513,7 +523,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"5.1 條件式控制 if-else","level":"2.5.1","depth":2,"next":{"title":"5.2 循環式控制 for-in","level":"2.5.2","depth":2,"path":"base/flow_control/for_in.md","ref":"base/flow_control/for_in.md","articles":[]},"previous":{"title":" 5. 流程控制","level":"2.5","depth":1,"path":"base/flow_control/flow_control_introduction.md","ref":"base/flow_control/flow_control_introduction.md","articles":[{"title":"5.1 條件式控制 if-else","level":"2.5.1","depth":2,"path":"base/flow_control/ifelse_switch.md","ref":"base/flow_control/ifelse_switch.md","articles":[]},{"title":"5.2 循環式控制 for-in","level":"2.5.2","depth":2,"path":"base/flow_control/for_in.md","ref":"base/flow_control/for_in.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/flow_control/ifelse_switch.md","mtime":"2019-09-08T08:52:22.782Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T08:53:53.945Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5.1 條件式控制 if-else","level":"2.5.1","depth":2,"next":{"title":"5.2 循環式控制 for-in","level":"2.5.2","depth":2,"path":"base/flow_control/for_in.md","ref":"base/flow_control/for_in.md","articles":[]},"previous":{"title":" 5. 流程控制","level":"2.5","depth":1,"path":"base/flow_control/flow_control_introduction.md","ref":"base/flow_control/flow_control_introduction.md","articles":[{"title":"5.1 條件式控制 if-else","level":"2.5.1","depth":2,"path":"base/flow_control/ifelse_switch.md","ref":"base/flow_control/ifelse_switch.md","articles":[]},{"title":"5.2 循環式控制 for-in","level":"2.5.2","depth":2,"path":"base/flow_control/for_in.md","ref":"base/flow_control/for_in.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/flow_control/ifelse_switch.md","mtime":"2019-09-08T09:01:29.038Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T09:01:45.880Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
