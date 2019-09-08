@@ -3,7 +3,7 @@
 * [if-else](#if_else)
 * [switch](#switch)
 
-<h2 id="if_elsee">if else</h2>
+<h2 id="if_else">if else</h2>
 
 簡單來說就是判斷 是非。
 
