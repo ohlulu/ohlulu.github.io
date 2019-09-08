@@ -9,7 +9,6 @@
     * [3.1 基礎型別](base/type_introduction/base_type.md)
     * [3.2 集合型別](base/type_introduction/collection_type.md)
     * [3.3 Optional - 可選型別](base/type_introduction/optional.md)
-    * [3.4 型別轉換](base/type_introduction/as.md)
 * [ 4. 程式片段](base/flow_control.md)
     * [4.1 函數 func](base/flow_control/func.md)
     * [4.2 閉包 closure](base/flow_control/closure.md)

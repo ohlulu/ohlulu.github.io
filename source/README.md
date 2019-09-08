@@ -2,4 +2,6 @@
 
 書本以 Swift 5.1 為主要版本進行介紹。
 
-Release by 2091/09/02
+Lastupdate: 2019/09/08
+
+Release: 2019/09/02
