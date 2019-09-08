@@ -48,6 +48,7 @@ for name in names {
 // Hello, Brian!
 // Hello, Jack!
 ```
+
 ---
 <h2 id="while_loop">While 迴圈</h2>
 
@@ -201,3 +202,41 @@ print(description)
 > 注意：使用 fallthrough 時，Swift 並不會淨息下一個 case 的匹配判斷，而是直接執行該區塊的程式碼。
 
 > ps: 當你有空然後讀到這邊的時候，call 我，我再貼範例給你。這邊先保留一下，可以想想看。
+
+# 練習
+
+1. 用一個迴圈，印出 
+    ```
+    2 * 1 = 2
+    2 * 2 = 4
+    2 * 3 = 6
+    2 * 4 = 8
+    2 * 5 = 10
+    2 * 6 = 12
+    2 * 7 = 14
+    2 * 8 = 16
+    2 * 9 = 18
+    ```
+
+1. `let number = 13`，判斷 13 是不是質數。
+
+1. 輸入一個正整數 N，計算出 N!
+
+1. 印出九九乘法表，格式排好
+    > 提示1：`terminator: ""`，可以取消換行。
+    > 提示2: `String(format: "%2d", i)`，可以讓數字即便是個位數，也可以依照兩位數的方式來印出。
+
+    ```swift
+    print("x", terminator: "")
+    print("y", terminator: "")
+    // 輸出 xy ，不會換行
+    ```
+
+    ```swift
+    let a = String(format: "%2d", 1)
+    print(a)
+    print(1)
+    // 輸出：
+    //  1
+    // 1
+    ``` 

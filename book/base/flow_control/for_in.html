@@ -532,6 +532,41 @@ for&#x689D;&#x4EF6;&#x905E;&#x589E;&#xFF08;for-condition-increment&#xFF09;&#x8A9
 <p>&#x6CE8;&#x610F;&#xFF1A;&#x4F7F;&#x7528; fallthrough &#x6642;&#xFF0C;Swift &#x4E26;&#x4E0D;&#x6703;&#x6DE8;&#x606F;&#x4E0B;&#x4E00;&#x500B; case &#x7684;&#x5339;&#x914D;&#x5224;&#x65B7;&#xFF0C;&#x800C;&#x662F;&#x76F4;&#x63A5;&#x57F7;&#x884C;&#x8A72;&#x5340;&#x584A;&#x7684;&#x7A0B;&#x5F0F;&#x78BC;&#x3002;</p>
 <p>ps: &#x7576;&#x4F60;&#x6709;&#x7A7A;&#x7136;&#x5F8C;&#x8B80;&#x5230;&#x9019;&#x908A;&#x7684;&#x6642;&#x5019;&#xFF0C;call &#x6211;&#xFF0C;&#x6211;&#x518D;&#x8CBC;&#x7BC4;&#x4F8B;&#x7D66;&#x4F60;&#x3002;&#x9019;&#x908A;&#x5148;&#x4FDD;&#x7559;&#x4E00;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x60F3;&#x60F3;&#x770B;&#x3002;</p>
 </blockquote>
+<h1 id="&#x7DF4;&#x7FD2;">&#x7DF4;&#x7FD2;</h1>
+<ol>
+<li><p>&#x7528;&#x4E00;&#x500B;&#x8FF4;&#x5708;&#xFF0C;&#x5370;&#x51FA; </p>
+<pre><code> 2 * 1 = 2
+ 2 * 2 = 4
+ 2 * 3 = 6
+ 2 * 4 = 8
+ 2 * 5 = 10
+ 2 * 6 = 12
+ 2 * 7 = 14
+ 2 * 8 = 16
+ 2 * 9 = 18
+</code></pre></li>
+<li><p><code>let number = 13</code>&#xFF0C;&#x5224;&#x65B7; 13 &#x662F;&#x4E0D;&#x662F;&#x8CEA;&#x6578;&#x3002;</p>
+</li>
+<li><p>&#x8F38;&#x5165;&#x4E00;&#x500B;&#x6B63;&#x6574;&#x6578; N&#xFF0C;&#x8A08;&#x7B97;&#x51FA; N!</p>
+</li>
+<li><p>&#x5370;&#x51FA;&#x4E5D;&#x4E5D;&#x4E58;&#x6CD5;&#x8868;&#xFF0C;&#x683C;&#x5F0F;&#x6392;&#x597D;</p>
+<blockquote>
+<p>&#x63D0;&#x793A;1&#xFF1A;<code>terminator: &quot;&quot;</code>&#xFF0C;&#x53EF;&#x4EE5;&#x53D6;&#x6D88;&#x63DB;&#x884C;&#x3002;
+&#x63D0;&#x793A;2: <code>String(format: &quot;%2d&quot;, i)</code>&#xFF0C;&#x53EF;&#x4EE5;&#x8B93;&#x6578;&#x5B57;&#x5373;&#x4FBF;&#x662F;&#x500B;&#x4F4D;&#x6578;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F9D;&#x7167;&#x5169;&#x4F4D;&#x6578;&#x7684;&#x65B9;&#x5F0F;&#x4F86;&#x5370;&#x51FA;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-swift"> <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;x&quot;</span>, terminator: <span class="hljs-string">&quot;&quot;</span>)
+ <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;y&quot;</span>, terminator: <span class="hljs-string">&quot;&quot;</span>)
+ <span class="hljs-comment">// &#x8F38;&#x51FA; xy &#xFF0C;&#x4E0D;&#x6703;&#x63DB;&#x884C;</span>
+</code></pre>
+<pre><code class="lang-swift"> <span class="hljs-keyword">let</span> a = <span class="hljs-type">String</span>(format: <span class="hljs-string">&quot;%2d&quot;</span>, <span class="hljs-number">1</span>)
+ <span class="hljs-built_in">print</span>(a)
+ <span class="hljs-built_in">print</span>(<span class="hljs-number">1</span>)
+ <span class="hljs-comment">// &#x8F38;&#x51FA;&#xFF1A;</span>
+ <span class="hljs-comment">//  1</span>
+ <span class="hljs-comment">// 1</span>
+</code></pre>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -575,7 +610,7 @@ for&#x689D;&#x4EF6;&#x905E;&#x589E;&#xFF08;for-condition-increment&#xFF09;&#x8A9
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"5.2 循環式控制","level":"2.5.2","depth":2,"next":{"title":"6. 物件導向-OOP","level":"3.1","depth":1,"path":"program_paradigm/oop.md","ref":"program_paradigm/oop.md","articles":[]},"previous":{"title":"5.1 條件式控制","level":"2.5.1","depth":2,"path":"base/flow_control/ifelse_switch.md","ref":"base/flow_control/ifelse_switch.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/flow_control/for_in.md","mtime":"2019-09-08T13:49:00.660Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T14:06:32.641Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5.2 循環式控制","level":"2.5.2","depth":2,"next":{"title":"6. 物件導向-OOP","level":"3.1","depth":1,"path":"program_paradigm/oop.md","ref":"program_paradigm/oop.md","articles":[]},"previous":{"title":"5.1 條件式控制","level":"2.5.1","depth":2,"path":"base/flow_control/ifelse_switch.md","ref":"base/flow_control/ifelse_switch.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"base/flow_control/for_in.md","mtime":"2019-09-08T14:31:17.977Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T14:32:18.985Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
