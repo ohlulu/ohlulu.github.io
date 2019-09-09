@@ -47,11 +47,6 @@ func printSum(by x: Int, and y: Int) {
     print(x + y)
 }
 
-// 有參數，也無回傳
-func printSum(x: Int, y: Int) {
-    print(x + y)
-}
-
 // 有參數，有回傳
 func getSum(x: Int, y: Int) -> Int {
     return x + y

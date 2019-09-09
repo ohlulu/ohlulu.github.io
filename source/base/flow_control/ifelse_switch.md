@@ -60,7 +60,7 @@ if age < 18 {
 
 ```swift
 let age = 18
-if age >= 18 {
+if age == 18 {
     print("age: \(age), 成年了")
 } else {
     print("age: \(age), 未成年")
