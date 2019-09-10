@@ -43,17 +43,17 @@ let arr2: Array = [1, 1, 2, 3, 5, 8]
 
 ```swift
 let arr0 = [0, 1, 2]
-print(arr[0], arr[1])
+print(arr0[0], arr0[1])
 // 0 1
 
 let a = 2
 let arr1: Array<Int> = ["我", "是", "誰"]
-print(arr[a])
+print(arr1[a])
 // 誰
 
 let b = 0
 let arr2 = [Int]()
-print(arr[b])
+print(arr2[b])
 // 🚫 out of index 
 ```
 
@@ -74,7 +74,7 @@ print(arr[b])
     let arr3 = arr1 + arr2
     print(arr3)
     ```
-3. insert(_ newElement: \<Element\>, at index: Int)，使用 Array 提供的方法，在指定位置，加上元素。
+3. insert(_ newElement: \`Element Type\`, at index: Int)，使用 Array 提供的方法，在指定位置，加上元素。
     ```swift
     var arr4 = [1, 1, 2]
     arr4.insert(3, at: 3)
