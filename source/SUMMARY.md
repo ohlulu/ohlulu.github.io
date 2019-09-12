@@ -17,6 +17,7 @@
     * [5.2 循環式控制](base/flow_control/for_in.md)
 
 ## 程式設計方法（典範）
-* [6. 物件導向-OOP](program_paradigm/oop.md)
-* [7. 協定導向POP](program_paradigm/pop.md)
+* [ 6. 物件導向-OOP](program_paradigm/oop.md)
+* [ 7. 協定導向POP](program_paradigm/pop.md)
+* [Bonus 小練習](bonus/practice.md)
 
