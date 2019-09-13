@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Bonus 小練習 · GitBook</title>
+        <title> 6. 物件導向，協定導向 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="class.html" />
     
-    <link rel="prev" href="../program_paradigm/enum.html" />
+    
+    <link rel="prev" href="../base/flow_control/for_in.html" />
     
 
     </head>
@@ -288,9 +290,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../program_paradigm/oop_pop.html">
+        <li class="chapter active" data-level="3.1" data-path="oop_pop.html">
             
-                <a href="../program_paradigm/oop_pop.html">
+                <a href="oop_pop.html">
             
                     
                      6. 物件導向，協定導向
@@ -308,9 +310,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="../program_paradigm/class.html">
+        <li class="chapter " data-level="4.1" data-path="class.html">
             
-                <a href="../program_paradigm/class.html">
+                <a href="class.html">
             
                     
                      7. 類別 Class
@@ -321,9 +323,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="../program_paradigm/struct.html">
+        <li class="chapter " data-level="4.2" data-path="struct.html">
             
-                <a href="../program_paradigm/struct.html">
+                <a href="struct.html">
             
                     
                      8. 結構 Struct
@@ -334,9 +336,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="../program_paradigm/enum.html">
+        <li class="chapter " data-level="4.3" data-path="enum.html">
             
-                <a href="../program_paradigm/enum.html">
+                <a href="enum.html">
             
                     
                      9. 列舉 Enum
@@ -347,9 +349,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.4" data-path="practice.html">
+        <li class="chapter " data-level="4.4" data-path="../bonus/practice.html">
             
-                <a href="practice.html">
+                <a href="../bonus/practice.html">
             
                     
                     Bonus 小練習
@@ -390,7 +392,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Bonus 小練習</a>
+        <a href=".." > 6. 物件導向，協定導向</a>
     </h1>
 </div>
 
@@ -405,12 +407,60 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="bonus-&#x5C0F;&#x7DF4;&#x7FD2;">Bonus &#x5C0F;&#x7DF4;&#x7FD2;</h1>
+                                <h1 id="6-&#x7269;&#x4EF6;&#x5C0E;&#x5411;&#xFF0C;&#x5354;&#x5B9A;&#x5C0E;&#x5411;">6. &#x7269;&#x4EF6;&#x5C0E;&#x5411;&#xFF0C;&#x5354;&#x5B9A;&#x5C0E;&#x5411;</h1>
+<h2 id="&#x7269;&#x4EF6;&#x5C0E;&#x5411;">&#x7269;&#x4EF6;&#x5C0E;&#x5411;</h2>
+<p>&#x7269;&#x4EF6;&#x5C0E;&#x5411;&#x7A0B;&#x5F0F;&#x8A2D;&#x8A08;&#xFF08;Object-oriented programming&#xFF0C;&#x7E2E;&#x5BEB; OOP&#xFF09;&#x5927;&#x9678;&#x53EB;&#xFF1A;&#x9762;&#x5411;&#x5C0D;&#x8C61;&#x7A0B;&#x5E8F;&#x8A2D;&#x8A08;&#x3002;</p>
+<p>&#x662F;&#x4E00;&#x7A2E;&#x4EE5;&#x7269;&#x4EF6;&#x70BA;&#x6982;&#x5FF5;&#x7684;&#x7A0B;&#x5F0F;&#x8A2D;&#x8A08;&#x65B9;&#x5F0F;&#x3002;</p>
+<h3 id="&#x985E;&#x5225;&#x8207;&#x7269;&#x4EF6;">&#x985E;&#x5225;&#x8207;&#x7269;&#x4EF6;</h3>
+<p>&#x7269;&#x4EF6;&#x5C0E;&#x5411;&#x6709;&#x5169;&#x500B;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x7279;&#x9EDE;</p>
+<ul>
+<li>&#x985E;&#xFF08;Class&#xFF09;&#xFF1A;&#x5B9A;&#x7FA9;&#x4E86;&#x4E00;&#x500B;&#x7269;&#x4EF6;&#x7684;&#x62BD;&#x8C61;&#x7279;&#x9EDE;&#x3002;&#x985E;&#x7684;&#x5B9A;&#x7FA9;&#x5305;&#x542B;&#x4E86;&#x8CC7;&#x6599;&#x7684;&#x5F62;&#x5F0F;&#xFF08;&#x8B8A;&#x6578;&#xFF09;&#x4EE5;&#x53CA;&#x5C0D;&#x8CC7;&#x6599;&#x7684;&#x64CD;&#x4F5C;&#xFF08;func&#xFF09;&#x3002;</li>
+<li>&#x7269;&#x4EF6;&#xFF08;Instance&#xFF09;&#xFF1A;&#x662F;&#x985E;&#x7684;&#x5BE6;&#x9AD4;&#x3002;</li>
+</ul>
+<pre><code class="lang-swift">
+<span class="hljs-class"><span class="hljs-keyword">class</span> `&#x985E;&#x5225;&#x7684;&#x540D;&#x7A31;` </span>{
+
+    <span class="hljs-keyword">let</span> `&#x516C;&#x6709;&#x8B8A;&#x6578;&#x540D;&#x7A31;`: `&#x8B8A;&#x6578;&#x578B;&#x5225;`
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">let</span> `&#x79C1;&#x6709;&#x8B8A;&#x6578;&#x540D;&#x7A31;`: `&#x8B8A;&#x6578;&#x578B;&#x5225;`
+
+    <span class="hljs-function"><span class="hljs-keyword">func</span> `&#x516C;&#x6709;&#x65B9;&#x6CD5;&#x540D;&#x7A31;`<span class="hljs-params">()</span></span> { }
+
+    <span class="hljs-keyword">private</span> <span class="hljs-function"><span class="hljs-keyword">func</span> `&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#x540D;&#x7A31;`<span class="hljs-params">()</span></span> { }
+}
+</code></pre>
+<p>&#x8209;&#x500B;&#x4F8B;&#x5B50;&#xFF1A;
+&#x4ECA;&#x5929;&#x6211;&#x5011;&#x60F3;&#x8981;&#x5EFA;&#x69CB;&#x4E00;&#x96BB;&#x72D7;&#xFF0C;&#x4EE5;&#x7269;&#x4EF6;&#x5C0E;&#x5411;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x6703;&#x5BA3;&#x544A;&#x4E00;&#x500B; class &#xFF0C;&#x5B9A;&#x7FA9;&#x72D7;&#x7684;&#x7279;&#x5FB5;&#xFF0C;&#x4EE5;&#x53CA;&#x884C;&#x70BA;&#x3002;</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> </span>{
+    <span class="hljs-keyword">var</span> name: <span class="hljs-type">String</span> = <span class="hljs-string">&quot;QQ&quot;</span>
+    <span class="hljs-keyword">var</span> year: <span class="hljs-type">Int</span> = <span class="hljs-number">8</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">run</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;running...&quot;</span>)
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">stop</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;stop&quot;</span>)
+    }
+}
+</code></pre>
+<p>&#x5BA3;&#x544A;&#x5B8C;&#x72D7;&#x7684;&#x985E;&#x5225;&#xFF0C;&#x63A5;&#x8457;&#x5C31;&#x662F;&#x5BE6;&#x9AD4;&#x5316;&#xFF1A;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> dog = <span class="hljs-type">Dog</span>()
+</code></pre>
+<p>&#x63A5;&#x8457;&#x6211;&#x5011;&#x5C31;&#x53EF;&#x4EE5;&#x5C0D;&#x72D7;(dog) &#x9019;&#x500B;&#x7269;&#x4EF6;&#x4E0B;&#x6307;&#x4EE4;&#x3002;</p>
+<pre><code class="lang-swift">dog.run()
+<span class="hljs-comment">// print: running...</span>
+</code></pre>
+<h2 id="&#x5354;&#x5B9A;&#x5C0E;&#x5411;">&#x5354;&#x5B9A;&#x5C0E;&#x5411;</h2>
+<p>&#x5354;&#x8B70;&#x5C0E;&#x5411;&#x7A0B;&#x5F0F;&#x8A2D;&#x8A08;&#xFF08;Protocol Oriented Programming&#xFF0C;&#x7E2E;&#x5BEB;&#xFF1A;POP&#xFF09;</p>
+<p>POP &#x662F;&#x7A0B;&#x5F0F;&#x8A2D;&#x8A08;&#x65B9;&#x6CD5;&#xFF0C;&#x6982;&#x5FF5;&#x5728;&#x65BC;&#x5354;&#x5B9A;&#xFF0C;&#x4E00;&#x7A2E;&#x898F;&#x7BC4;&#x3001;&#x4E00;&#x7A2E;&#x7D04;&#x5B9A;&#x3002;
+&#x901A;&#x4FD7;&#x4E00;&#x9EDE;&#x7684;&#x89E3;&#x91CB;&#x662F;&#xFF1A;&#xFF21;&#x5B9A;&#x7FA9;&#x5354;&#x8B70;&#xFF0C;&#xFF22;&#x9075;&#x5B88;&#x5354;&#x8B70;&#xFF0C;&#xFF22;&#x5373;&#x53EF;&#x4EAB;&#x6709;&#x9075;&#x5B88;&#x5354;&#x8B70;&#x6240;&#x64C1;&#x6709;&#x7684;&#x670D;&#x52D9;&#x3002;</p>
+<p>&#x5C31;&#x50CF;&#x6211;&#x5011;&#x5E38;&#x770B;&#x5230;&#x7684;&#x9032;&#x53E3;&#x5354;&#x8B70;&#xFF0C;&#x7576;&#x5546;&#x5BB6;&#x4EE5;&#x53CA;&#x5546;&#x54C1;&#x9075;&#x5B88;&#x4E86;&#x9032;&#x53E3;&#x5354;&#x8B70;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5C07;&#x5546;&#x54C1;&#x9032;&#x53E3;&#x81F3;&#x53F0;&#x7063;&#x8CA9;&#x552E;&#xFF0C;&#x53EF;&#x4EE5;&#x4EAB;&#x53D7;&#x5230;&#x6CD5;&#x5F8B;&#x7684;&#x4FDD;&#x8B77;(?)</p>
+<p>&#x4EE5;&#x7A0B;&#x5F0F;&#x4E2D;&#x7684;&#x4F8B;&#x5B50;&#x4F86;&#x8AAA;&#xFF1A;
+&#x6211;&#x5011;&#x5B9A;&#x7FA9;&#x4E00;&#x500B; protocol Equatable&#x3002;&#x9019;&#x500B;&#x5354;&#x5B9A;&#x4E2D;&#x898F;&#x7BC4;&#x4E86;&#x4E00;&#x500B;&#x65B9;&#x6CD5;&#xFF0C;&#x65B9;&#x6CD5;&#x7684;&#x529F;&#x80FD;&#x662F;&#x6BD4;&#x8F03;&#x5169;&#x500B;&#x7269;&#x4EF6;&#x662F;&#x5426;&#x76F8;&#x7B49;&#x3002;</p>
+<h1 id="&#x7DF4;&#x7FD2;">&#x7DF4;&#x7FD2;</h1>
 <ol>
-<li><p>let a = 10, b = 5&#x3002;&#x5617;&#x8A66;&#x4EA4;&#x63DB;&#x9019;&#x5169;&#x500B;&#x8B8A;&#x6578;&#x7684;&#x503C;&#xFF08;&#x63D0;&#x793A;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x500B;&#x8B8A;&#x6578;&#xFF09;</p>
-</li>
-<li><p>&#xFF08;&#x9032;&#x968E;&#xFF09;&#x540C;&#x4E0A;&#x984C;&#xFF0C;&#x8A66;&#x8457;&#x4E0D;&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x500B;&#x8B8A;&#x6578;&#xFF0C;&#x4EA4;&#x63DB;&#x5169;&#x500B;&#x8B8A;&#x6578;&#x7684;&#x503C;</p>
-</li>
+<li>&#x5BA3;&#x544A;&#x4E00;&#x500B;&#x4EBA;&#x7684;&#x985E;&#x5225;&#xFF0C;&#x4E26;&#x5BE6;&#x9AD4;&#x5316;&#x3002;&#x8981;&#x64C1;&#x6709;&#x540D;&#x5B57;&#x3001;&#x5E74;&#x9F61;&#x3001;&#x6027;&#x5225;&#x7B49;&#x8CC7;&#x6599;&#xFF0C;&#x4EE5;&#x53CA;&#x5403;&#x98EF;&#x3001;&#x7761;&#x89BA;&#x7B49;&#x884C;&#x70BA;&#x3002;</li>
 </ol>
 
                                 
@@ -439,10 +489,14 @@
 
             
                 
-                <a href="../program_paradigm/enum.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page:  9. 列舉 Enum">
+                <a href="../base/flow_control/for_in.html" class="navigation navigation-prev " aria-label="Previous page: 5.2 循環式控制">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="class.html" class="navigation navigation-next " aria-label="Next page:  7. 類別 Class">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -451,7 +505,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Bonus 小練習","level":"4.4","depth":1,"previous":{"title":" 9. 列舉 Enum","level":"4.3","depth":1,"path":"program_paradigm/enum.md","ref":"program_paradigm/enum.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"bonus/practice.md","mtime":"2019-09-12T06:07:20.986Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-13T15:58:42.639Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":" 6. 物件導向，協定導向","level":"3.1","depth":1,"next":{"title":" 7. 類別 Class","level":"4.1","depth":1,"path":"program_paradigm/class.md","ref":"program_paradigm/class.md","articles":[]},"previous":{"title":"5.2 循環式控制","level":"2.5.2","depth":2,"path":"base/flow_control/for_in.md","ref":"base/flow_control/for_in.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapsible-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","description":"初學者白皮書!"},"file":{"path":"program_paradigm/oop_pop.md","mtime":"2019-09-13T14:17:43.687Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-13T15:58:42.639Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
