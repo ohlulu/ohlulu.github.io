@@ -23,5 +23,8 @@
 * [ 7. 類別 Class](program_paradigm/class.md)
 * [ 8. 結構 Struct](program_paradigm/struct.md)
 * [ 9. 列舉 Enum](program_paradigm/enum.md)
-* [Bonus 小練習](bonus/practice.md)
+
+## Bonus
+* [小練習](bonus/practice.md)
+* [快捷鍵列表](bonus/shortcut.md)
 

@@ -201,7 +201,7 @@ print(description)
 // 輸出 "The number 5 is a prime number, and also an integer."
 ```
 
-> 注意：使用 fallthrough 時，Swift 並不會淨息下一個 case 的匹配判斷，而是直接執行該區塊的程式碼。
+> 注意：使用 fallthrough 時，Swift 並不會進行下一個 case 的匹配判斷，而是直接執行該區塊的程式碼。
 
 > ps: 當你有空然後讀到這邊的時候，call 我，我再貼範例給你。這邊先保留一下，可以想想看。
 
