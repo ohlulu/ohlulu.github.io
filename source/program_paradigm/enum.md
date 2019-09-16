@@ -96,7 +96,7 @@ enum Month: Int {
 }
 ```
 
-## 使用原始值初始化列舉實體
+## 使用 raw value 初始化 enum 實體
 在定義 enum 時，如果使用了 rawValue，那這個 enum 會有一個初始化方法(method)，這個方法有一個名稱為 rawValue 的參數，參數型別就是列舉原始值的型別，返回值為列舉成員或nil。例子如下：
 
 ```swift
