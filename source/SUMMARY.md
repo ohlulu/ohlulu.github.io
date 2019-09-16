@@ -20,9 +20,9 @@
 * [ 6. 物件導向，協定導向](program_paradigm/oop_pop.md)
 
 ## 進階
-* [ 7. 類別 Class](program_paradigm/class.md)
-* [ 8. 結構 Struct](program_paradigm/struct.md)
-* [ 9. 列舉 Enum](program_paradigm/enum.md)
+* [ 7. 列舉 Enum](program_paradigm/enum.md)
+* [ 8. 類別 & 結構 (Class & Struct )](program_paradigm/class_struct.md)
+* [ 9. 建構子](program_paradigm/initial.md)
 
 ## Bonus
 * [小練習](bonus/practice.md)
