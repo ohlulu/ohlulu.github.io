@@ -134,3 +134,4 @@ print("dog2 -> \(dog2)")
 下面用兩張圖來說明一下，物件在記憶體中的實際狀況：
 
 ![](value-type.png)
+![](reference-type.png)
