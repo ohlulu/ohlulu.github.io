@@ -135,3 +135,74 @@ print("dog2 -> \(dog2)")
 
 ![](value-type.png)
 ![](reference-type.png)
+
+我們可以在 print 函數加上印出記憶體位址的 func 來觀察一下記憶體的變化
+
+因為 class & struct 印出記憶體位址的方式有一點不同，為了方便，我們先加上一段程式碼，來整合一下
+```swift
+
+struct MemoryAddress<T>: CustomStringConvertible {
+    
+    let intValue: Int
+    
+    var description: String {
+        let length = 2 + 2 * MemoryLayout<UnsafeRawPointer>.size
+        return String(format: "%0\(length)p", intValue)
+    }
+    
+    // for structures
+    init(of structPointer: UnsafePointer<T>) {
+        intValue = Int(bitPattern: structPointer)
+    }
+}
+
+extension MemoryAddress where T: AnyObject {
+    
+    // for classes
+    init(of classInstance: T) {
+        intValue = unsafeBitCast(classInstance, to: Int.self)
+    }
+}
+```
+
+class 的結果
+```swift
+dog1 -> 阿牛, addredd -> 0x00006000010cad00
+dog2 -> 阿牛, addredd -> 0x00006000010cad00
+dog1 -> 糖牛, addredd -> 0x00006000010cad00
+dog2 -> 糖牛, addredd -> 0x00006000010cad00
+```
+
+struct 的結果
+```swift
+dog1 -> 阿牛, addredd -> 0x000000011b4ee730
+dog2 -> 阿牛, addredd -> 0x000000011b4ee740
+dog1 -> 糖牛, addredd -> 0x000000011b4ee730
+dog2 -> 阿牛, addredd -> 0x000000011b4ee740
+```
+
+### reference & value 結論：
+* reference type 在傳遞的時候，傳遞的是位址
+* value type 在傳遞的時候，是物件本身先複製一份，再傳遞
+
+## 類別和結構的選擇
+在你的程式碼中，你可以使用 class 和 struct 來定義你的自定義資料型別。
+
+然而，struct 實例總是通過值傳遞，class 實例總是通過參考傳遞。這意味兩者適用不同的任務。當你的在考慮一個工程項目的資料建構和功能的時候，你需要決定每個資料建構是定義成 class 還是 struct。
+
+舉個簡單的例子：
+
+1. 假設我們今天有一個代辦清單，包含標別跟內文，在Ａ畫面我們只做顯示的功能，使用者可以點到內頁去做修改。
+
+    那我們預期Ｂ畫面修改完之後，Ａ畫面的資料也會跟著修改。
+
+    這時候就可以使用 class
+
+2. 假設今天的資料我們只做顯示，例如從 open api 拿回來的資料。我們通常只做顯示，這時候就可以使用 struct
+
+
+## 未完待續
+
+因為複製這個動作的成本比較高，所以 Swift 其實還有一個特性，`寫時複製`，簡單來說就是當資料有被修改時才執行複製的的動作。
+
+這部分屬於理論知識，實務上，理解或不理解，並沒有太大的影響。
