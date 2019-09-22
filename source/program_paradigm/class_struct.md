@@ -8,7 +8,8 @@
 * [繼承](#inhert)
 
 
-<h2 id="first">定義</h2>## 
+<h2 id="first">定義</h2>
+
 類別通過關鍵字 `class` or `Struct` 表示，並在一對大括號中定義它們的具體內容：
 ```swift
 class SomeClass {
