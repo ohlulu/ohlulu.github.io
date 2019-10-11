@@ -75,7 +75,7 @@ Color提供了一個建構器，其中包含三個Double型別的建構參數：
 
 ```swift
 struct Color {
-    let red = 0.0, green = 0.0, blue = 0.0
+    var red = 0.0, green = 0.0, blue = 0.0
     init(red: Double, green: Double, blue: Double) {
         self.red   = red
         self.green = green
