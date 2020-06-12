@@ -144,7 +144,7 @@
 
 ## 自我進修
 
-平時其實滿喜歡聊程式的，有定期參加 iOS@Taipei，今年也首度參加了 CocoaHeads 聚會。
+平時其實滿喜歡聊程式的，有定期參加 iOS@Taipei、CocoaHeads 聚會。
 
 2020 年：
 
