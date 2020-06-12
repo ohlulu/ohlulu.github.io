@@ -1,6 +1,18 @@
+# 施翔日 ohlulu
 
+>*iOS Developer. Coder is an architect, a designer.*
+>
+>*[Github]([Blog](https://www.ohlulu.tw/)), [Blog](https://www.ohlulu.tw/), z30262226@gmail.com*
 
-# 技術介紹
+## 自介
+
+*有一點程式潔癖；所以喜歡研究架構。有一點懶；所以熱愛自動化。*
+
+*有一點喜歡造輪子；所以想要徹底搞懂為什麼。有一點愛寫程式；所以寫程式*
+
+熱愛學習新的事物，喜歡滑板、音樂、小說、電影。
+
+## 技術介紹
 
 1.  開源專案
 
@@ -40,17 +52,19 @@
     -   最早是因為待在接案公司，每次開案都需要匯入大量的圖檔，並且手動輸入大量的 code，麻煩無腦不說，還容易產生失誤。所以興起了使用腳本完成的念頭。
     -   [這邊]([https://www.ohlulu.tw/2020/04/19/coderengin-%e6%bc%82%e4%ba%ae%e7%9a%84%e6%96%b9%e5%bc%8f%e5%8f%96%e7%94%a8%e5%9c%96%e7%89%87/](https://www.ohlulu.tw/2020/04/19/coderengin-漂亮的方式取用圖片/)) 有我寫的文章簡單介紹開發這套腳本的歷程。
     -   這是我覺得最自豪的一個腳本應用。
+2.  一點小東西🤏
 
--   一點小東西🤏
     -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數...)。
     -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，自己寫了一個網路層的封裝，並參考了 Moya Task 的架構。這部分沒有製作成 Pod，是為了將來能輕易的修改架構 ( 預設值, Task... 等等 )，以符合各個專案的需求。
     -   [Xcode-Snippets-theme-Template](https://github.com/ohlulu/Xcode-Snippets-theme-Template) : 自己常用的 code snippets & file template，使用 linux symbolic link 的方式在同步在 Github 上。
 
-2.  技能樹
+    
+
+3.  技能樹
 
 ![技能樹](skill_tree.png)
 
-# 工作經歷
+## 工作經歷
 
 <h3 style="font-size: 12px;">2018/09 ~ 現在</h3>
 
@@ -120,7 +134,7 @@
     
     -   使用原生的 autolayout 排版畫面。
 
-# 自我進修
+## 自我進修
 
 平時其實滿喜歡聊程式的，有定期參加 iOS@Taipei，今年也首度參加了 CocoaHeads 聚會。
 
@@ -133,5 +147,5 @@
 -   參加 iPlayground
 -   參加 [Natalie](https://github.com/lumanmann) 舉辦的讀書會，內容是 design pattern 的書。
 
-
-
+>   曾經相信在程式的世界中「只有想不到，沒有做不到」；如今帶著些微的程式潔癖，遊蕩於 iOS 的領域中。
+>   過去懵懂無知、年少輕狂，留下許多遺憾；現在朝著一出手就是框架等級的架構師前進。
