@@ -24,9 +24,9 @@
 
     
 
-    -   受到 RxSwift 影響，愛上鏈式 coding style，而打造了一套自己的套件，其中借鑒 RxSwift 的 `.rx` name-spacing，大幅減少重複的 code。
+    -   受 RxSwift 影響，愛上鏈式 coding style，而打造了一套自己的套件，其中借鑒 RxSwift 的 `.rx` name-spacing，大幅減少重複的 code。
     -   利用上述的 name-spacing ，可以完美的控制 auto completed 的數量，也可以避免一些命名上的衝突
-    -   因為此套件所有的鏈式func都需要手動完成，一開始只集中了大部分的 UI 設置，難免有所疏漏。但在開發時有預設了此種情況，利用 `closure: (base: Base -> Void)` 避免了需要等待套件更新才能往下走的情況，也避免了一些嵌套元件設置的不方便 ( ex: WebView.ScrollView )
+    -   因為此套件所有的鏈式 func 都需要手動完成，一開始只集中了大部分的 UI 設置，難免有所疏漏。但在開發時有預設了此種情況，利用 `closure: (base: Base -> Void)` 避免了需要等待套件更新才能往下走的情況，也避免了一些嵌套元件設置的不方便 ( ex: WebView.ScrollView )
 
     
 
