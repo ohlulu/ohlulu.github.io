@@ -88,7 +88,7 @@
 
 ## 工作經歷
 
-### iOS 軟體工程師, Team lead，[果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
+### iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
 
 1.   待上線 APP  ( 2019/09–2020/04 )
 
@@ -138,7 +138,7 @@
 
         </br>
 
-### iOS 軟體工程師，[桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
+### iOS 軟體工程師 -- [桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
 
 1.   企業用通訊軟體 - iCa
 
