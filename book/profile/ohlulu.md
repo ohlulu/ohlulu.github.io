@@ -65,6 +65,8 @@
     -   [這邊]([https://www.ohlulu.tw/2020/04/19/coderengin-%e6%bc%82%e4%ba%ae%e7%9a%84%e6%96%b9%e5%bc%8f%e5%8f%96%e7%94%a8%e5%9c%96%e7%89%87/](https://www.ohlulu.tw/2020/04/19/coderengin-漂亮的方式取用圖片/)) 有我寫的文章簡單介紹開發這套腳本的歷程。
     -   😁 這是我覺得最自豪的一個腳本應用。
     
+    
+    
 4.  ### 其他
 
     -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
@@ -133,7 +135,7 @@
 
 ### iOS 軟體工程師，[桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
 
--   企業用通訊軟體 - iCat
+-   企業用通訊軟體 - iCa
 
 	>   通訊軟體，並結合企業入口網中的各個模組。
     >   此專案使用極度少量的第三方套件！
@@ -151,7 +153,7 @@
 
 ## 自我進修
 
-平時其實滿喜歡聊程式的，有定期參加 iOS@Taipei、CocoaHeads 聚會。
+平時滿喜歡聊程式，有定期參加 iOS@Taipei、CocoaHeads 聚會。
 
 2020 年：
 
