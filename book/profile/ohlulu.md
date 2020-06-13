@@ -8,6 +8,10 @@
 
 ---
 
+[TOC]
+
+---
+
 ## 自介
 
 *有一點程式潔癖；所以喜歡研究架構。有一點懶；所以熱愛自動化。*
@@ -20,7 +24,7 @@
 
 ## 技術介紹
 
-1.  #### [OhSwifter](https://github.com/ohlulu/OhSwifter) 
+1.  #### [OhSwifter](https://github.com/ohlulu/OhSwifter)
 
 	>   UI initializer with fluent style.
 
@@ -84,9 +88,9 @@
 
 ## 工作經歷
 
-#### iOS 軟體工程師, Team lead，[果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
+### iOS 軟體工程師, Team lead，[果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
 
--   待上線 APP  ( 2019/09–2020/04 )
+1.   待上線 APP  ( 2019/09–2020/04 )
 
     >   目前階段不方便公開，請見諒。
 
@@ -102,11 +106,13 @@
 
          </br>
 
--   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP [Download](https://apps.apple.com/tw/app/ici-en-orbite/id1477162797) ( 2019/02–2020/08 )
+2.   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP  ( 2019/02–2020/08 )
 
     >   IoT 產品，使用儀器測量膚質，APP計算出建議保養品用量，並記錄膚質狀況。
 
     
+
+    -   [Download on AppStore](https://apps.apple.com/tw/app/ici-en-orbite/id1477162797)。
 
     -   使用 MVVM + RxSwift 開發，純 code layout。
 
@@ -120,7 +126,7 @@
 
         </br>
 
--   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP ( 2018/12 - 2019/4 )
+3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP ( 2018/12 - 2019/4 )
 
     >   車資＆請假簽核系統，結合員工餐廳的餐點預定。
 
@@ -132,10 +138,9 @@
 
         </br>
 
-
 ### iOS 軟體工程師，[桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
 
--   企業用通訊軟體 - iCa
+1.   企業用通訊軟體 - iCa
 
 	>   通訊軟體，並結合企業入口網中的各個模組。
     >   此專案使用極度少量的第三方套件！
