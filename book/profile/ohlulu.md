@@ -1,6 +1,6 @@
 # 施翔日 ohlulu
 
->*iOS Developer. Coder is an architect, a designer.*
+>*iOS Developer. Programmer is an architect, a designer.*
 >
 >*[Github]([Blog](https://www.ohlulu.tw/)), [Blog](https://www.ohlulu.tw/), z30262226@gmail.com*
 
