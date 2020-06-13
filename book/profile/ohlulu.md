@@ -24,10 +24,10 @@
 
 ## 技術介紹
 
-1.  #### [OhSwifter](https://github.com/ohlulu/OhSwifter)
+1. ### [OhSwifter](https://github.com/ohlulu/OhSwifter)
 
-	>   UI initializer with fluent style.
-
+    >   UI initializer with fluent style.
+    
     
     
     -   鏈式 coding style，借鑒 RxSwift 的 `.rx.xxx` name-spacing。
