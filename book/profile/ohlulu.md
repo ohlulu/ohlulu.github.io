@@ -1,6 +1,8 @@
 # 施翔日 ohlulu
 
->*iOS Developer. Programmer is an architect, a designer.*
+>*iOS Developer.*
+>
+>*Programmers are more than someone who writes codes. We are designers and architectures.*
 >
 >*[Github]([Blog](https://www.ohlulu.tw/)), [Blog](https://www.ohlulu.tw/), z30262226@gmail.com*
 
@@ -20,17 +22,17 @@
 
 1.  #### [OhSwifter](https://github.com/ohlulu/OhSwifter) 
 
->   UI initializer with fluent style.
+	>   UI initializer with fluent style.
 
-
-
--   鏈式 coding style，借鑒 RxSwift 的 `.rx.xxx` name-spacing。
-    -   控制 auto completed 的數量。
-    -   避免一些命名上的衝突。
--   封裝複數 config property。 
-    -   UIView.border : width + color
-    -   UIView.shadow : color + radius + offset +  opacity
--   相較常見的 `var lable: UILable = { //... }()` 方式，節省許多不必要的 code。
+    
+    
+    -   鏈式 coding style，借鑒 RxSwift 的 `.rx.xxx` name-spacing。
+        -   控制 auto completed 的數量。
+        -   避免一些命名上的衝突。
+    -   封裝複數 config property。 
+        -   UIView.border : width + color
+        -   UIView.shadow : color + radius + offset +  opacity
+    -   相較常見的 `var lable: UILable = { //... }()` 方式，節省許多不必要的 code。
 
 
 
@@ -45,7 +47,7 @@
     -   Unit test。
     -   套件的幾個特色
         
-            -   function 擁有可自訂的預設值：我們認為此類型套件最大的問題是「The default parameter of the function doesn't meet your needs」。
+        -   function 擁有可自訂的預設值：我們認為此類型套件最大的問題是「The default parameter of the function doesn't meet your needs」。
         
         -   提供更易懂的命名空間「接下來的操作是安全的」:  `array.safe[0]`, `"string".safe[0...10]` ，
         -   以 builder pattern 實作了一套簡單的 NSAttributeString builder。
@@ -144,7 +146,8 @@
     -   使用原生的 URLSession 呼叫 API。
     -   使用原生的 autolayout 排版畫面。
     
-    
+
+---
 
 ## 自我進修
 
