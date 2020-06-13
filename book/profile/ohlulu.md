@@ -24,9 +24,9 @@
 
     
 
-    -   受 RxSwift 影響，愛上鏈式 coding style，而打造了一套自己的套件，其中借鑒 RxSwift 的 `.rx` name-spacing，大幅減少重複的 code。
-    -   利用上述的 name-spacing ，可以完美的控制 auto completed 的數量，也可以避免一些命名上的衝突
-    -   因為此套件所有的鏈式 func 都需要手動完成，一開始只集中了大部分的 UI 設置，難免有所疏漏。但在開發時有預設了此種情況，利用 `closure: (base: Base -> Void)` 避免了需要等待套件更新才能往下走的情況，也避免了一些嵌套元件設置的不方便 ( ex: WebView.ScrollView )
+    -   鏈式 coding style，其中借鑒 RxSwift 的 `.rx.xxx` name-spacing，可以控制 auto completed 的數量，也可以避免一些命名上的衝突。
+    -   封裝複數 config property 成一個 func。 ex : border, shadow...
+    -   相較常見的 `var lable: UILable = { //... }()` 方式，節省了許多不必要的 code。
 
     
 
@@ -38,11 +38,11 @@
 
     -   與朋友一起實作的，仿 [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 的 extension library。
     -   使用 Jazzy 產生文檔。
-    -   少量的 Unit test。
+    -   Unit test。
     -   套件的幾個特色
-            -   與 SwifterMinions 最大的差異是，我們引入了 Config 架構；我們認為此類型的套件最大的問題是「default value of function parameter is not you want」。( 我提出的構想 :D )
-        -   套件提供了一些 Safable 的操作 `array.safe[0]`, `"string".safe[0...10]`, [stackoverflow](https://stackoverflow.com/a/30593673) 上有一些相同功能的 extension，但個人認為 `array[safe: 0]` 的 safe 在 swift 中比較像是「對參數的說明，希望傳入一個安全的 index」。而 SwiftMinions 提供的命名空間更像是，接下來的操作是安全的。
-        -   實作了一套 NSAttributeString builder，雖然已經有了更先進的 [function builder](https://github.com/ethanhuang13/NSAttributedStringBuilder) ，但因為某些專案無法使用如此新版的Xcode，所以還是實作了一套簡單的 Builder。
+            -   我們認為此類型套件最大的問題是「default value of function parameter is not you want，所以使用 Config 架構。有預設值，使用的人也可以自訂預設值。
+        -   Safable 的操作： `array.safe[0]`, `"string".safe[0...10]` ，提供更易懂的命名空間「接下來的操作是安全的」。
+        -   參與讀書會時學到了 builder pattern，以此為概念實作了一套簡單的 NSAttributeString builder。
     -   這是我最自豪的一個開源專案，或許不是很厲害的架構，但其中許多構想是由我提出並且完成的。
     
     
@@ -61,8 +61,9 @@
     
 2.  ### 一點小東西🤏
 
-    -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數...)。
-    -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，自己寫了一個網路層的封裝，並參考了 Moya Task 的架構。這部分沒有製作成 Pod，是為了將來能輕易的修改架構 ( 預設值, Task... 等等 )，以符合各個專案的需求。
+    -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
+    -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，寫了一個網路層的封裝，參考 Moya Task 的架構，並引入其中。
+    -   [Sell script](https://github.com/ohlulu/OhSwifter/blob/master/Scripts/release.sh)：只需輸入新的版號，即可依 git flow 自動 release 新的版本，並且 git push & pod push。
     -   [Xcode-Snippets-theme-Template](https://github.com/ohlulu/Xcode-Snippets-theme-Template) : 自己常用的 code snippets & file template，使用 linux symbolic link 的方式在同步在 Github 上。
 
     
