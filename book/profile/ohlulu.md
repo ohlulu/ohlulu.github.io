@@ -102,7 +102,7 @@
 
     -    使用 Realm 資料庫，記錄使用者的購物車內容。
 
-    -    使用 [網路組件](https://github.com/onevcat/ComponentNetworking)，於專案中輕鬆解決了「多裝置登入->SOO」的需求變更。
+    -    使用 [網路組件](https://github.com/ohlulu/NetworkDemo)，於專案中輕鬆解決了「多裝置登入->SOO」的需求變更。
 
     -    專案中使用自己的開源套件 [OhSwifter](https://github.com/ohlulu/OhSwifter) ( UI initializer with fluent style )，大幅減少 UI 元件初始化時繁雜的 Code。
 
