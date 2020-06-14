@@ -68,7 +68,7 @@
 >   Assets.xcassets parser
 
 -   Python 實作的腳本，解析 Assets.xcassets 轉換成 static computed property code。避免手動輸入時出現的失誤。
--   [這邊]([https://www.ohlulu.tw/2020/04/19/coderengin-%e6%bc%82%e4%ba%ae%e7%9a%84%e6%96%b9%e5%bc%8f%e5%8f%96%e7%94%a8%e5%9c%96%e7%89%87/](https://www.ohlulu.tw/2020/04/19/coderengin-漂亮的方式取用圖片/)) 有我寫的文章簡單介紹開發這套腳本的歷程。
+-   [這邊](https://www.ohlulu.tw/2020/04/19/coderengin-%e6%bc%82%e4%ba%ae%e7%9a%84%e6%96%b9%e5%bc%8f%e5%8f%96%e7%94%a8%e5%9c%96%e7%89%87) 有我寫的文章簡單介紹開發這套腳本的歷程。
 -   😁 這是我自己最喜歡的一個腳本應用。
 
 
