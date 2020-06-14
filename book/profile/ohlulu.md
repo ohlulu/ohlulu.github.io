@@ -49,7 +49,7 @@
 >    Instead of creating products without reasons and purpose, we choose to build our own Framework from a clear starting point.
 
 -   與朋友一起實作的，仿 [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 的 extension library。
--   使用 Jazzy 產生文檔。
+-   使用 Jazzy 製作[文件](https://swiftminions.github.io/doc/index.html)。
 -   Unit test。
 -   Shell script 自動化 release。
 -   套件的幾個特色 :  
