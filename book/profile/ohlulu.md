@@ -46,7 +46,7 @@
 
 ### ． [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
 
->    Instead of creating products without reasons and purpose, we choose to build our own Framework from a clear starting point.
+>    Instead of creating a product without reasons and purposes, we built our own framework from a clear starting point.
 
 -   與朋友一起實作的，仿 [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 的 extension library。
 -   使用 Jazzy 製作[文件](https://swiftminions.github.io/doc/index.html)。
