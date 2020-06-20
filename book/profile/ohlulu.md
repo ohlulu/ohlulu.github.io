@@ -51,7 +51,7 @@
 -   與朋友一起實作的，仿 [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 的 extension library。
 -   使用 Jazzy 製作[文件](https://swiftminions.github.io/doc/index.html)。
 -   Unit test。
--   Shell script 自動化 release。
+-   [Shell script](https://github.com/SwiftMinions/SwiftMinions/blob/master/Scripts/Release.sh) 自動化 release。
 -   套件的幾個特色 :  
 
     1.  function 擁有可自訂的預設值：我們認為此類型套件最大的問題是「The default parameter of the function doesn't meet your needs」。
