@@ -40,9 +40,7 @@
 
 -   封裝複數 config property :
     1.  UIView.border : width + color
-2.  UIView.shadow : color + radius + offset +  opacity
-    
-
+    2.  UIView.shadow : color + radius + offset +  opacity
 
 ### ． [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
 
