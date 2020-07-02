@@ -41,6 +41,8 @@
 -   封裝複數 config property :
     1.  UIView.border : width + color
     2.  UIView.shadow : color + radius + offset +  opacity
+    
+    
 
 ### ． [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
 
@@ -75,7 +77,7 @@
 
 -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
 -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，寫了一個網路層的封裝，參考 Moya Task 的架構，並引入其中。
--   [Sell script](https://github.com/ohlulu/OhSwifter/blob/master/Scripts/release.sh)：只需輸入新的版號，即可依 git flow 自動 release 新的版本，並且 git push & pod push。
+-   [Shell script](https://github.com/ohlulu/OhSwifter/blob/master/Scripts/release.sh)：只需輸入新的版號，即可依 git flow 自動 release 新的版本，並且 git push & pod push。
 -   [Xcode-Snippets-theme-Template](https://github.com/ohlulu/Xcode-Snippets-theme-Template) : 自己常用的 code snippets & file template，使用 linux symbolic link 的方式在同步在 Github 上。
 
 
@@ -173,5 +175,5 @@
 
 ---
 
->   曾經相信在程式的世界中「只有想不到，沒有做不到」；如今帶著些微的程式潔癖，遊蕩於 iOS 的領域中。
->   過去懵懂無知、年少輕狂，留下許多遺憾；現在朝著一出手就是框架等級的架構師前進。
+*曾經相信在程式的世界中「只有想不到，沒有做不到」；如今帶著些微的程式潔癖，遊蕩於 iOS 的領域中。
+過去懵懂無知、年少輕狂，留下許多遺憾；現在朝著一出手就是框架等級的架構師前進。*
