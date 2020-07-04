@@ -18,13 +18,13 @@
 
 *有一點喜歡造輪子；所以想要徹底搞懂為什麼。有一點愛寫程式；所以寫程式*
 
-熱愛學習新的事物，喜歡滑板、音樂、小說、電影。
+喜歡滑板、音樂、小說、電影。
 
 ---
 
 ## 2. 技術介紹
 
-### ． [OhSwifter](https://github.com/ohlulu/OhSwifter)
+### ・ [OhSwifter](https://github.com/ohlulu/OhSwifter)
 
 >   UI initializer with fluent style.
 
@@ -44,7 +44,7 @@
     
     
 
-### ． [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
+### ・ [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
 
 >    Instead of creating a product without reasons and purposes, we built our own framework from a clear starting point.
 
@@ -63,7 +63,7 @@
 
 
 
-### ． [CoderEngine](https://github.com/ohlulu/CoderEngine)
+### ・ [CoderEngine](https://github.com/ohlulu/CoderEngine)
 
 >   Assets.xcassets parser
 
@@ -73,7 +73,7 @@
 
 
 
-### ． 其他
+### ・ 其他
 
 -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
 -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，寫了一個網路層的封裝，參考 Moya Task 的架構，並引入其中。
@@ -82,7 +82,7 @@
 
 
 
-### ． 技能樹
+### ・ 技能樹
 
 ![技能樹](skill_tree.png)
 
@@ -90,66 +90,70 @@
 
 ## 3. 工作經歷
 
-### ． iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
+### ・ iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
+
+1.  2020年初升為 Tema Lead。
+
+2.  提出了 Bug repoter 系統的構想，並實作中，目的在於「簡化回報Bug的流程 」以及「提升Bug回報的精度」。
+
+3.  引導團隊開發了值日生Bot，從原本的單純呼叫「值日生倒垃圾」變成「@xx @xx 倒垃圾囉」，從此再也不用問這禮拜誰是值日生。
+
+4.   引入 File template 規範團隊的程式架構，降低協作的困難度，增加產出的品質。
+
+     
+
+**專案經歷 ( 約90%獨立完成 )**
 
 1.   待上線 APP  ( 2019/09–2020/04 )
 
-    >   目前階段不方便公開，請見諒。
+     >   目前階段不方便公開，請見諒。
 
-    
+     -    使用 MVVM + RxSwift 開發，純 code layout。
 
-    -    使用 MVVM + RxSwift 開發，純 code layout。
+     -    使用 Realm 資料庫，記錄使用者的購物車內容。
 
-    -    使用 Realm 資料庫，記錄使用者的購物車內容。
+     -    使用 [網路組件](https://github.com/ohlulu/NetworkDemo)，於專案中輕鬆解決了「多裝置登入->SOO」的需求變更。
 
-    -    使用 [網路組件](https://github.com/ohlulu/NetworkDemo)，於專案中輕鬆解決了「多裝置登入->SOO」的需求變更。
+     -    專案中使用自己的開源套件 [OhSwifter](https://github.com/ohlulu/OhSwifter) ( UI initializer with fluent style )，大幅減少 UI 元件初始化時繁雜的 Code。
 
-    -    專案中使用自己的開源套件 [OhSwifter](https://github.com/ohlulu/OhSwifter) ( UI initializer with fluent style )，大幅減少 UI 元件初始化時繁雜的 Code。
+          </br>
+
+2.   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP  ( 2019/03–2019/08 )
+
+     >   IoT 產品，使用儀器測量膚質，APP計算出建議保養品用量，並記錄膚質狀況。
+
+     -   [Download on AppStore](https://apps.apple.com/tw/app/ici-en-orbite/id1477162797)。
+
+     -   使用 MVVM + RxSwift 開發，純 code layout。
+
+     -   使用 Realm 資料庫，記錄使用者的膚質檢測紀錄。
+
+     -   使用 RxSwift 解決原生藍芽框架中大量的 Delegate，改為事件流的方式處理與儀器的交互。
+
+     -   使用知名圖表套件 [Chart](https://github.com/danielgindi/Charts)，並結合遮罩，讓原本不會動的曲線圖動起來。
+
+     -   客製 UI 元件，使用 UICollectionView 實作可滾動曲線圖，並加上標示點。
 
          </br>
 
-2.   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP  ( 2019/02–2020/08 )
+3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP ( 2018/11 - 2019/3 )
 
-    >   IoT 產品，使用儀器測量膚質，APP計算出建議保養品用量，並記錄膚質狀況。
+     >   車資＆請假簽核系統，結合員工餐廳的餐點預定。
 
-    
+     -   使用 MVC 開發，純 code layout。
 
-    -   [Download on AppStore](https://apps.apple.com/tw/app/ici-en-orbite/id1477162797)。
+     -   使用 SQLite 紀錄購物車。
 
-    -   使用 MVVM + RxSwift 開發，純 code layout。
+     -   介接企業內部原本的車資、請假簽核系統。
 
-    -   使用 Realm 資料庫，記錄使用者的膚質檢測紀錄。
+         </br>
 
-    -   使用 RxSwift 解決原生藍芽框架中大量的 Delegate，改為事件流的方式處理與儀器的交互。
-
-    -   使用知名圖表套件 [Chart](https://github.com/danielgindi/Charts)，並結合遮罩，讓原本不會動的曲線圖動起來。
-
-    -   客製 UI 元件，使用 UICollectionView 實作可滾動曲線圖，並加上標示點。
-
-        </br>
-
-3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP ( 2018/12 - 2019/4 )
-
-    >   車資＆請假簽核系統，結合員工餐廳的餐點預定。
-
-    
-
-    -   使用 MVC 開發，純 code layout。
-
-    -   使用 SQLite 紀錄購物車。
-
-    -   介接企業內部原本的車資、請假簽核系統。
-    
-        </br>
-
-### ． iOS 軟體工程師 -- [桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
+### ・iOS 軟體工程師 -- [桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
 
 1.   企業用通訊軟體 - iCa
 
 	>   通訊軟體，並結合企業入口網中的各個模組。
-    >   此專案使用極度少量的第三方套件！
-    
-    
+    >   此專案幾乎無使用套件！
     
     
     -   負責功能的開發及維護。
@@ -164,13 +168,9 @@
 
 平時滿喜歡聊程式，有定期參加 iOS@Taipei、CocoaHeads 聚會。
 
-2020 年：
-
+-   參加 iPlayground 2019
 -   參加 [OysterSu](https://github.com/OysterSu) 主講的 CI/CD & Git 指令大全。
 
-2019 年：
-
--   參加 iPlayground
 -   參加 [Natalie](https://github.com/lumanmann) 舉辦的讀書會，內容是 design pattern 的書。
 
 ---
