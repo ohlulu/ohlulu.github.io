@@ -30,7 +30,7 @@
 
 -   鏈式 coding style。
     
--   相較常見的 `var lable: UILable = { //... }()` 方式，節省許多不必要的 code。
+-   相較常見的 `var lable: UILable = { /* ... */ }( )` 方式，節省許多不必要的 code。
     
 -   借鑒 RxSwift 的 `.rx.xxx` name-spacing :
 
@@ -90,7 +90,15 @@
 
 ## 3. 工作經歷
 
-### ・ iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 現在* </font>
+### ・iOS 軟體工程師 -- [Pinkoi](https://www.pinkoi.com/) <font color="gray">  *2019/09 ~ 現在* </font>
+
+1.  主要負責維護 [Pinkoi App](https://apps.apple.com/tw/app/pinkoi/id55725241)、Objc 轉 Swift、幫助團隊提升開發速度等項目 。
+2.  使用 Swift 實作新的 Network layer 串接 API，並配合 File template 讓團隊可以快速上手。
+3.  使用 [Probot](https://github.com/probot/probot) 實作 Github bot 幫助團隊 code review 時更順暢。
+
+</br>
+
+### ・iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 2019/08* </font>
 
 1.  2020年初升為 Tema Lead。
 
@@ -104,9 +112,9 @@
 
 **專案經歷 ( 約90%獨立完成 )**
 
-1.   待上線 APP  ( 2019/09–2020/04 )
+1.   [誠品人(TW)](https://apps.apple.com/tw/app/%E8%AA%A0%E5%93%81%E4%BA%BA-tw/id1527231018)   ( 2019/09–2020/04 )
 
-     >   目前階段不方便公開，請見諒。
+     >   官方APP，線上購物、會員、電子券、點數、購物車、餐廳訂位、第三方金流
 
      -    使用 MVVM + RxSwift 開發，純 code layout。
 
@@ -166,9 +174,9 @@
 
 ## 4. 自我進修
 
-平時滿喜歡聊程式，有定期參加 iOS@Taipei、CocoaHeads 聚會。
+平時滿喜歡聊程式，平時定期參加 iOS@Taipei、CocoaHeads 聚會。
 
--   參加 iPlayground 2019
+-   參加 iPlayground 2019、2020
 -   參加 [OysterSu](https://github.com/OysterSu) 主講的 CI/CD & Git 指令大全。
 
 -   參加 [Natalie](https://github.com/lumanmann) 舉辦的讀書會，內容是 design pattern 的書。
