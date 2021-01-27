@@ -24,7 +24,7 @@
 
 ## 2. 技術介紹
 
-### ・ [OhSwifter](https://github.com/ohlulu/OhSwifter)
+### [OhSwifter](https://github.com/ohlulu/OhSwifter)
 
 >   UI initializer with fluent style.
 
@@ -44,7 +44,7 @@
     
     
 
-### ・ [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
+### [SwiftMinions](https://github.com/SwiftMinions/SwiftMinions)
 
 >    Instead of creating a product without reasons and purposes, we built our own framework from a clear starting point.
 
@@ -63,7 +63,7 @@
 
 
 
-### ・ [CoderEngine](https://github.com/ohlulu/CoderEngine)
+### [CoderEngine](https://github.com/ohlulu/CoderEngine)
 
 >   Assets.xcassets parser
 
@@ -73,7 +73,7 @@
 
 
 
-### ・ 其他
+### 其他
 
 -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
 -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，寫了一個網路層的封裝，參考 Moya Task 的架構，並引入其中。
@@ -82,7 +82,7 @@
 
 
 
-### ・ 技能樹
+### 技能樹
 
 ![技能樹](skill_tree.png)
 
@@ -90,7 +90,7 @@
 
 ## 3. 工作經歷
 
-### ・iOS 軟體工程師 -- [Pinkoi](https://www.pinkoi.com/) <font color="gray">  *2019/09 ~ 現在* </font>
+### [Pinkoi](https://www.pinkoi.com/) - iOS 軟體工程師 <font color="gray">  *2020/09 ~ 現在* </font>
 
 1.  主要負責維護 [Pinkoi App](https://apps.apple.com/tw/app/pinkoi/id55725241)、Objc 轉 Swift、幫助團隊提升開發速度等項目 。
 2.  使用 Swift 實作新的 Network layer 串接 API，並配合 File template 讓團隊可以快速上手。
@@ -98,7 +98,7 @@
 
 </br>
 
-### ・iOS 軟體工程師 ( Team lead ) -- [果思設計](https://goonsdesign.com/) <font color="gray">  *2018/09 ~ 2019/08* </font>
+### [果思設計](https://goonsdesign.com/) - iOS 軟體工程師 (Team lead) <font color="gray">  *2018/09 ~ 2020/08* </font>
 
 1.  2020年初升為 Tema Lead。
 
@@ -112,7 +112,7 @@
 
 **專案經歷 ( 約90%獨立完成 )**
 
-1.   [誠品人(TW)](https://apps.apple.com/tw/app/%E8%AA%A0%E5%93%81%E4%BA%BA-tw/id1527231018)   ( 2019/09–2020/04 )
+1.   [誠品人(TW)](https://apps.apple.com/tw/app/%E8%AA%A0%E5%93%81%E4%BA%BA-tw/id1527231018)   (2019/09 - 2020/04)
 
      >   官方APP，線上購物、會員、電子券、點數、購物車、餐廳訂位、第三方金流
 
@@ -126,7 +126,7 @@
 
           </br>
 
-2.   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP  ( 2019/03–2019/08 )
+2.   [元盛生醫](https://goonsdesign.com/ici.html) - 膚質檢測APP  (2019/03 - 2019/08)
 
      >   IoT 產品，使用儀器測量膚質，APP計算出建議保養品用量，並記錄膚質狀況。
 
@@ -144,7 +144,7 @@
 
          </br>
 
-3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP ( 2018/11 - 2019/3 )
+3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP (2018/11 - 2019/03)
 
      >   車資＆請假簽核系統，結合員工餐廳的餐點預定。
 
@@ -156,7 +156,7 @@
 
          </br>
 
-### ・iOS 軟體工程師 -- [桓基科技](http://www.hgiga.com/) <font color="gray">  *2017/06 ~ 2018/08* </font>
+### [桓基科技](http://www.hgiga.com/) - iOS 軟體工程師 <font color="gray">  *2017/06 ~ 2018/08* </font>
 
 1.   企業用通訊軟體 - iCa
 

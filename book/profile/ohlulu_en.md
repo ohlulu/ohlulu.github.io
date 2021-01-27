@@ -74,7 +74,7 @@ Love longboard, music, novels, and movies.
 
 ## 3. Work experience
 
-### [Pinkoi](https://www.pinkoi.com/) - iOS Engineer <font color="gray">  *2019/09 ~ Now* </font>
+### [Pinkoi](https://www.pinkoi.com/) - iOS Develpoer <font color="gray">  *2020/09 ~ Now* </font>
 
 1.  Maintain [Pinkoi App](https://apps.apple.com/tw/app/pinkoi/id55725241), Obj-c to Swift, and help the team improve the speed of development.
 2.  Use Swift to implement the new `Network layer`, and create `File template` so that teammate can quickly get started.
@@ -82,17 +82,17 @@ Love longboard, music, novels, and movies.
 
 
 
-### [GOONS](https://goonsdesign.com/) - iOS Engineer (Team lead) <font color="gray">  *2018/09 ~ 2019/08* </font>
+### [GOONS](https://goonsdesign.com/) - iOS Develpoer(Team lead) <font color="gray">  *2018/09 ~ 2020/08* </font>
 
 **Workexperience at GOONS**
 
-1.   [Eslite(TW)](https://apps.apple.com/tw/app/%E8%AA%A0%E5%93%81%E4%BA%BA-tw/id1527231018) ( 2019/09–2020/04 )
-2.   [iCi](https://goonsdesign.com/ici.html) - Skin quality IoT App. ( 2019/03–2019/08 )
-3.   [Deloitte](https://www2.deloitte.com/tw/tc.html) - Enterprise App. ( 2018/11 - 2019/3 )
+1.   [Eslite(TW)](https://apps.apple.com/tw/app/%E8%AA%A0%E5%93%81%E4%BA%BA-tw/id1527231018) (2019/09–2020/04)
+2.   [iCi](https://goonsdesign.com/ici.html) - Skin quality IoT App. (2019/03 - 2019/08)
+3.   [Deloitte](https://www2.deloitte.com/tw/tc.html) - Enterprise App. (2018/11 - 2019/3)
 
 
 
-### [Hgiga](http://www.hgiga.com/) - iOS Engineer <font color="gray">  *2017/06 ~ 2018/08* </font>
+### [Hgiga](http://www.hgiga.com/) - iOS Develpoer <font color="gray">  *2017/06 ~ 2018/08* </font>
 
 1.   iCa - Enterprise IM.
 
