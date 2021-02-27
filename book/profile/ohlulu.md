@@ -56,7 +56,7 @@
 
     1.  function 擁有可自訂的預設值：我們認為此類型套件最大的問題是「The default parameter of the function doesn't meet your needs」。
 
-    2.  提供更易懂的命名空間「接下來的操作是安全的」:  `array.safe[0]`, `"string".safe[0...10]` ，
+    2.  提供更易懂的命名空間「接下來的操作是安全的」:  `array.safe[0]`, `"string".safe[0...10]` 。
 
     3.  以 builder pattern 實作了一套簡單的 NSAttributeString builder。
 -   😁 這是我最自豪的一個開源專案，或許不是很厲害的架構，但其中許多構想是由我提出並且完成的。
@@ -78,7 +78,6 @@
 -   [Swift 數字處理大全](https://www.ohlulu.tw/2019/02/22/swift-number-detail/) : google 搜尋排名前幾的文章 ( 關鍵字: swift 四捨五入, swift 小數... )。
 -   [Alamofire 封裝](https://github.com/ohlulu/NetworkDemo) : 在 iPlayground 2019 王巍大大的薰陶，寫了一個網路層的封裝，參考 Moya Task 的架構，並引入其中。
 -   [Shell script](https://github.com/ohlulu/OhSwifter/blob/master/Scripts/release.sh)：只需輸入新的版號，即可依 git flow 自動 release 新的版本，並且 git push & pod push。
--   [Xcode-Snippets-theme-Template](https://github.com/ohlulu/Xcode-Snippets-theme-Template) : 自己常用的 code snippets & file template，使用 linux symbolic link 的方式在同步在 Github 上。
 
 
 
@@ -116,10 +115,6 @@
 
      >   官方APP，線上購物、會員、電子券、點數、購物車、餐廳訂位、第三方金流
 
-     -    使用 MVVM + RxSwift 開發，純 code layout。
-
-     -    使用 Realm 資料庫，記錄使用者的購物車內容。
-
      -    使用 [網路組件](https://github.com/ohlulu/NetworkDemo)，於專案中輕鬆解決了「多裝置登入->SOO」的需求變更。
 
      -    專案中使用自己的開源套件 [OhSwifter](https://github.com/ohlulu/OhSwifter) ( UI initializer with fluent style )，大幅減少 UI 元件初始化時繁雜的 Code。
@@ -132,10 +127,6 @@
 
      -   [Download on AppStore](https://apps.apple.com/tw/app/ici-en-orbite/id1477162797)。
 
-     -   使用 MVVM + RxSwift 開發，純 code layout。
-
-     -   使用 Realm 資料庫，記錄使用者的膚質檢測紀錄。
-
      -   使用 RxSwift 解決原生藍芽框架中大量的 Delegate，改為事件流的方式處理與儀器的交互。
 
      -   使用知名圖表套件 [Chart](https://github.com/danielgindi/Charts)，並結合遮罩，讓原本不會動的曲線圖動起來。
@@ -147,10 +138,6 @@
 3.   [勤業眾信](https://www2.deloitte.com/tw/tc.html) - 企業用APP (2018/11 - 2019/03)
 
      >   車資＆請假簽核系統，結合員工餐廳的餐點預定。
-
-     -   使用 MVC 開發，純 code layout。
-
-     -   使用 SQLite 紀錄購物車。
 
      -   介接企業內部原本的車資、請假簽核系統。
 
@@ -165,12 +152,7 @@
     
     
     -   負責功能的開發及維護。
-    -   使用 core data 記錄聊天記錄
-    -   使用原生的 URLSession 呼叫 API。
-    -   使用原生的 autolayout 排版畫面。
     
-
-
 
 ## 4. 自我進修
 
