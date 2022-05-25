@@ -194,7 +194,7 @@ enum AppFont {
 
 因為很不巧的，在我使用從 SwifterSwift 學習到的一個 UIView 擴展: `var borderColor` 不小心與案子中另一個套件的命名衝突了。雖然我改用 xx\_borderColor 這樣的命名來解決了這個問題。但底線式的命名方式實在很不符合個人的喜好...。
 
-接著再查詢 RxSwift 資料的時候，發現了一篇很棒的文章 [medium]([https://medium.com/@DianQK/%E5%86%99%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84-swift-%E6%A1%86%E6%9E%B6-rx-tap-rx-tap-af0c417da3d6](https://medium.com/@DianQK/写更优雅的-swift-框架-rx-tap-rx-tap-af0c417da3d6))，可以自訂一個 namespacing 的實作方法。
+接著再查詢 RxSwift 資料的時候，發現了一篇很棒的文章 [medium][https://medium.com/@DianQK/%E5%86%99%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84-swift-%E6%A1%86%E6%9E%B6-rx-tap-rx-tap-af0c417da3d6]，可以自訂一個 namespacing 的實作方法。
 
 總結了一下幾個點（用 Rx tap 舉例）：
 
